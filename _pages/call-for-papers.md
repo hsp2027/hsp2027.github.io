@@ -6,8 +6,6 @@ nav: true
 nav_order: 2
 ---
 
-# Call for Papers
-
 We are happy to announce the call for abstracts for the **40th Annual Conference on Human Sentence Processing**, to be held at **Purdue University** on **May 20-22, 2027**.
 
 The special theme for HSP 2027 is **Cognitive mechanisms of syntactic change throughout the lifespan**.
@@ -52,6 +50,4 @@ Abstracts should follow these guidelines:
 
 ## Contact
 
-If you have questions about submissions or need assistance, please contact us.
-
-**Email:** xxx
+Please contact us at hsp2027@gmail.com with any questions regarding the conference. Let us know what we can do to make the conference accessible to you.

@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Home
+title: 40th Annual Conference on Human Sentence Processing
 permalink: /
-nav: true
+nav: false
 nav_order: 1
 ---
 
@@ -50,22 +50,14 @@ nav_order: 1
   }
 </style>
 
-# HSP 2027
-
 <div class="hsp-lede">
-  <p><strong>40th Annual Conference on Human Sentence Processing</strong></p>
-  <ul class="hsp-meta">
-    <li><strong>Host:</strong> Purdue University, West Lafayette, Indiana</li>
-    <li><strong>Dates:</strong> May 20-22, 2027</li>
-    <li><strong>Special theme:</strong> Cognitive mechanisms of syntactic change throughout the lifespan</li>
-  </ul>
+  <p><strong>Dates:</strong> May 20-22, 2027</p>
+  <p><strong>Location:</strong> Purdue University, West Lafayette, Indiana</p>
 </div>
 
-## Introduction
+**Special theme:** Cognitive mechanisms of syntactic change throughout the lifespan
 
-HSP 2027 will bring together researchers working on human sentence processing, language comprehension and production, psycholinguistics, neurolinguistics, computational models of language processing, language acquisition, bilingualism, signed languages, and related areas of language and cognition.
-
-The special theme for HSP 2027 is **Cognitive mechanisms of syntactic change throughout the lifespan**. We welcome submissions related to this theme as well as submissions on all aspects of human sentence processing.
+Examining a variety of perspectives on how and why syntactic representations develop and change in individuals due to age-related cognitive development (children and adults), changes in input characteristics (e.g. through moving to a new multilingual context or new dialect region), or changes due to experiment participation, classroom language teaching, or clinical interventions.
 
 ## Invited Speakers
 
@@ -105,6 +97,4 @@ The special theme for HSP 2027 is **Cognitive mechanisms of syntactic change thr
 
 ## Contact
 
-Please contact us with any questions regarding the conference. Let us know what we can do to make the conference accessible to you.
-
-**Email:** xxx
+Please contact us at hsp2027@gmail.com with any questions regarding the conference. Let us know what we can do to make the conference accessible to you.
