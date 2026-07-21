@@ -12,7 +12,7 @@ nav_order: 1
   }
 
   .hsp-title {
-    font-size: clamp(2rem, 3.2vw, 2.75rem);
+    font-size: clamp(1.75rem, 2.6vw, 2.25rem);
     font-weight: 700;
     line-height: 1.12;
     margin-bottom: 1.75rem;
