@@ -1,53 +1,44 @@
 ---
 layout: page
-title: Call for Papers
+title: Submission
 permalink: /call-for-papers/
 nav: true
 nav_order: 2
 ---
 
+<style>
+  .post-header {
+    display: none;
+  }
+</style>
+
 We are happy to announce the call for abstracts for the **40th Annual Conference on Human Sentence Processing**, to be held at **Purdue University** on **May 20-22, 2027**.
 
 The special theme for HSP 2027 is **Cognitive mechanisms of syntactic change throughout the lifespan**.
+We invite submissions that examine how and why syntactic representations develop and change across the lifespan. Relevant topics include age-related cognitive development (in both children and adults), changes in linguistic input (e.g., multilingual experience or dialect contact), and changes resulting from experimental participation, classroom language instruction, or clinical interventions.
 
-We welcome abstract submissions related to the special theme as well as abstracts on all areas of human sentence processing. Abstracts may be submitted for poster or podium presentations.
+We welcome abstracts related to the special theme as well as submissions on all areas of human sentence processing. Abstracts may be submitted for either **poster** or **podium** presentations.
 
 ## Abstract Submission
 
-We plan to use the [Oxford Abstracts](https://oxfordabstracts.com/) platform for abstract submission and review. The HSP 2027 submission portal will be linked here when it opens.
+**Submission portal:** Please submit your abstract via [Oxford Abstracts](https://oxfordabstracts.com/).
 
-**Abstract submission deadline: January 15, 2027**
+**Submission deadline:** January 15, 2027
 
-Abstracts should follow these guidelines:
+## Submission Guidelines
 
-- The abstract text may be no longer than one page.
-- A second page may be included for figures, tables, other graphics, and/or references.
-- Abstracts should not include author names or affiliations in the PDF.
-- Please avoid identifying information in the abstract text itself.
-- References are preferably in APA format, though other formats are acceptable.
-- Please clearly state the language(s) being investigated, including English if applicable.
-- Submissions must be in PDF format.
+The abstract text should not exceed one page. An optional second page may be included for figures, tables, graphics, and/or references.
 
-## Formatting Requirements
+Submit a PDF formatted as follows:
 
-- 1 inch margins on all sides
 - 11 pt Arial font
-- U.S. Letter size document, 8.5 x 11 inches
+- 1-inch margins
+- U.S. Letter, 8.5 x 11 inches
 - Portrait orientation
-- PDF only
-- 1 page of text, with 1 optional additional page for figures, tables, graphics, and/or references
 
-## Important Dates
-
-- Reviewer sign-up deadline: **December 15, 2026**
-- Abstract submission deadline: **January 15, 2027**
-- Decisions released: **TBA**
-- Conference dates: **May 20-22, 2027**
+Do not include author names, affiliations, acknowledgments, or other identifying information in the PDF.
+References may be in APA or another standard citation style.
 
 ## Reviewer Recruitment
 
-[**Sign up here**](https://forms.gle/ghEptouQVbw7DVk79) **to be a reviewer!** by December 15, 2026.
-
-## Contact
-
-Please contact us at hsp2027@gmail.com with any questions regarding the conference. Let us know what we can do to make the conference accessible to you.
+[Sign up here](https://docs.google.com/forms/d/e/1FAIpQLSd7m42hCJ7IXNn49TUO32HfoOCHiLx25Yi1TWes2UYvxns5nA/viewform) to be a reviewer by December 15, 2026.

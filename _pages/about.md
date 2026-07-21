@@ -1,19 +1,40 @@
 ---
 layout: page
-title: 40th Annual Conference on Human Sentence Processing
+title: Home
 permalink: /
 nav: false
 nav_order: 1
 ---
 
 <style>
+  .post-header {
+    display: none;
+  }
+
+  .hsp-title {
+    font-size: clamp(2.2rem, 4vw, 3.25rem);
+    font-weight: 700;
+    line-height: 1.12;
+    margin-bottom: 1.75rem;
+    white-space: nowrap;
+  }
+
   .hsp-lede {
     margin-bottom: 2rem;
   }
 
-  .hsp-meta {
-    margin: 1.25rem 0 1.75rem;
-    padding-left: 1.1rem;
+  .hsp-lede p {
+    margin: 0 0 0.65rem;
+  }
+
+  .hsp-lede p:last-child {
+    margin-bottom: 0;
+  }
+
+  @media (max-width: 900px) {
+    .hsp-title {
+      white-space: normal;
+    }
   }
 
   .hsp-people {
@@ -50,14 +71,13 @@ nav_order: 1
   }
 </style>
 
+<h1 class="hsp-title">40th Annual Conference on Human Sentence Processing</h1>
+
 <div class="hsp-lede">
   <p><strong>Dates:</strong> May 20-22, 2027</p>
   <p><strong>Location:</strong> Purdue University, West Lafayette, Indiana</p>
+  <p><strong>Special theme:</strong> Cognitive Mechanisms of Syntactic Change Throughout the Lifespan</p>
 </div>
-
-**Special theme:** Cognitive mechanisms of syntactic change throughout the lifespan
-
-Examining a variety of perspectives on how and why syntactic representations develop and change in individuals due to age-related cognitive development (children and adults), changes in input characteristics (e.g. through moving to a new multilingual context or new dialect region), or changes due to experiment participation, classroom language teaching, or clinical interventions.
 
 ## Invited Speakers
 
@@ -95,6 +115,17 @@ Examining a variety of perspectives on how and why syntactic representations dev
   {% endfor %}
 </div>
 
+## Important Dates
+
+- [Reviewer sign-up](https://docs.google.com/forms/d/e/1FAIpQLSd7m42hCJ7IXNn49TUO32HfoOCHiLx25Yi1TWes2UYvxns5nA/viewform) deadline: December 15, 2026
+- [Abstract submission](https://oxfordabstracts.com/) deadline: January 15, 2027
+- Notification of acceptance: TBA
+- [Early registration](https://www.hspsociety.org/home) deadline: TBA
+- [Conference registration](https://www.hspsociety.org/home) deadline: TBA
+- Travel grants application deadline: TBA
+- Conference dates: May 20-22, 2027
+
 ## Contact
 
-Please contact us at hsp2027@gmail.com with any questions regarding the conference. Let us know what we can do to make the conference accessible to you.
+Please contact us at hsp2027@gmail.com with any questions about the conference.
+Check [HSP Society](https://www.hspsociety.org/home) for more information, and subscribe to the HSP mailing list [here](https://www.hspsociety.org/get-involved).
