@@ -12,10 +12,11 @@ nav_order: 1
   }
 
   .hsp-title {
-    font-size: clamp(2.2rem, 4vw, 3.25rem);
+    font-size: clamp(2rem, 3.2vw, 2.75rem);
     font-weight: 700;
     line-height: 1.12;
     margin-bottom: 1.75rem;
+    max-width: 100%;
     white-space: nowrap;
   }
 

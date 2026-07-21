@@ -25,19 +25,18 @@ We welcome abstracts related to the special theme as well as submissions on all 
 
 **Submission deadline:** January 15, 2027
 
-## Submission Guidelines
+**Submission Guidelines:**
 
-The abstract text should not exceed one page. An optional second page may be included for figures, tables, graphics, and/or references.
+1. The abstract text should not exceed one page. An optional second page may be included for figures, tables, graphics, and/or references.
 
-Submit a PDF formatted as follows:
+2. Submit a PDF formatted as follows:
 
-- 11 pt Arial font
-- 1-inch margins
-- U.S. Letter, 8.5 x 11 inches
-- Portrait orientation
+   - 11 pt Arial font
+   - 1-inch margins
+   - U.S. Letter, 8.5 x 11 inches
+   - Portrait orientation
 
-Do not include author names, affiliations, acknowledgments, or other identifying information in the PDF.
-References may be in APA or another standard citation style.
+3. Do not include author names, affiliations, acknowledgments, or other identifying information in the PDF. References may be in APA or another standard citation style.
 
 ## Reviewer Recruitment
 
