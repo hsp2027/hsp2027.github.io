@@ -10,6 +10,24 @@ nav_order: 2
   .post-header {
     display: none;
   }
+
+  .submission-guidelines ol,
+  .submission-guidelines ul {
+    margin-bottom: 0.5rem;
+  }
+
+  .submission-guidelines li {
+    margin-bottom: 0.25rem;
+  }
+
+  .submission-guidelines li > ul {
+    margin-top: 0.25rem;
+    margin-bottom: 0.25rem;
+  }
+
+  .submission-guidelines li > p {
+    margin-bottom: 0.25rem;
+  }
 </style>
 
 We are happy to announce the call for abstracts for the **40th Annual Conference on Human Sentence Processing**, to be held at **Purdue University** on **May 20-22, 2027**.
@@ -25,6 +43,8 @@ We welcome abstracts related to the special theme as well as submissions on all 
 
 **Submission deadline:** January 15, 2027
 
+<div class="submission-guidelines" markdown="1">
+
 **Submission Guidelines:**
 1. The abstract text should not exceed one page. An optional second page may be included for figures, tables, graphics, and/or references.
 2. Submit a PDF formatted as follows:
@@ -33,6 +53,8 @@ We welcome abstracts related to the special theme as well as submissions on all 
    - U.S. Letter, 8.5 x 11 inches
    - Portrait orientation
 3. Do not include author names, affiliations, acknowledgments, or other identifying information in the PDF. References may be in APA or another standard citation style.
+
+</div>
 
 ## Reviewer Recruitment
 
