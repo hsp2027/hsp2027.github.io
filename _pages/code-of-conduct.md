@@ -11,22 +11,6 @@ nav_order: 3
     display: none;
   }
 
-  .conduct-hero {
-    background: linear-gradient(90deg, #7d2438, #917184);
-    color: #fff;
-    margin: 0 calc(50% - 50vw) 4rem;
-    padding: 3rem 1.5rem;
-    text-align: center;
-  }
-
-  .conduct-hero h1 {
-    color: #fff;
-    font-size: clamp(2rem, 4vw, 2.75rem);
-    font-weight: 700;
-    line-height: 1.1;
-    margin: 0;
-  }
-
   .conduct-content {
     font-size: 1rem;
     line-height: 1.65;
@@ -52,9 +36,7 @@ nav_order: 3
   }
 </style>
 
-<div class="conduct-hero">
-  <h1>Code of Conduct</h1>
-</div>
+<h1>Code of Conduct</h1>
 
 <div class="conduct-content" markdown="1">
 
