@@ -18,15 +18,17 @@ nav_order: 3
 
   .conduct-title,
   .conduct-content h2 {
-    font-size: 1.45rem;
     font-weight: 700;
   }
 
   .conduct-title {
-    margin-bottom: 1rem;
+    font-size: clamp(2.25rem, 4vw, 3rem);
+    margin-bottom: 2rem;
+    text-align: center;
   }
 
   .conduct-content h2 {
+    font-size: 1.45rem;
     margin-top: 2.75rem;
   }
 
