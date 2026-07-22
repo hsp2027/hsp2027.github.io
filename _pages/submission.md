@@ -19,6 +19,17 @@ nav_order: 2
     text-align: center;
   }
 
+  h2 {
+    font-size: 1.45rem;
+    font-weight: 700;
+    margin-top: 2.75rem;
+    margin-bottom: 1rem;
+  }
+
+  p {
+    margin-bottom: 1rem;
+  }
+
   .submission-guidelines ol,
   .submission-guidelines ul {
     margin-bottom: 0.5rem;

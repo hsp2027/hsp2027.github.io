@@ -33,6 +33,13 @@ nav_order: 1
     margin-bottom: 0;
   }
 
+  h2 {
+    font-size: 1.45rem;
+    font-weight: 700;
+    margin-top: 2.75rem;
+    margin-bottom: 1rem;
+  }
+
   @media (max-width: 900px) {
     .hsp-page-title {
       white-space: normal;
