@@ -16,14 +16,15 @@ nav_order: 3
     line-height: 1.65;
   }
 
-  .conduct-title,
+  .hsp-page-title,
   .conduct-content h2 {
     font-weight: 700;
   }
 
-  .conduct-title {
-    font-size: clamp(2.25rem, 4vw, 3rem);
-    margin-bottom: 2rem;
+  .hsp-page-title {
+    font-size: clamp(1.75rem, 2.6vw, 2.25rem);
+    line-height: 1.12;
+    margin-bottom: 1.75rem;
     text-align: center;
   }
 
@@ -46,7 +47,7 @@ nav_order: 3
   }
 </style>
 
-<h1 class="conduct-title">Code of Conduct</h1>
+<h1 class="hsp-page-title">Code of Conduct</h1>
 
 <div class="conduct-content" markdown="1">
 

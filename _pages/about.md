@@ -11,12 +11,13 @@ nav_order: 1
     display: none;
   }
 
-  .hsp-title {
+  .hsp-page-title {
     font-size: clamp(1.75rem, 2.6vw, 2.25rem);
     font-weight: 700;
     line-height: 1.12;
     margin-bottom: 1.75rem;
     max-width: 100%;
+    text-align: center;
     white-space: nowrap;
   }
 
@@ -33,7 +34,7 @@ nav_order: 1
   }
 
   @media (max-width: 900px) {
-    .hsp-title {
+    .hsp-page-title {
       white-space: normal;
     }
   }
@@ -72,7 +73,7 @@ nav_order: 1
   }
 </style>
 
-<h1 class="hsp-title">40th Annual Conference on Human Sentence Processing</h1>
+<h1 class="hsp-page-title">40th Annual Conference on Human Sentence Processing</h1>
 
 <div class="hsp-lede">
   <p><strong>Dates:</strong> May 20-22, 2027</p>

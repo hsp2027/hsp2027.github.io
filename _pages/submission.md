@@ -11,6 +11,14 @@ nav_order: 2
     display: none;
   }
 
+  .hsp-page-title {
+    font-size: clamp(1.75rem, 2.6vw, 2.25rem);
+    font-weight: 700;
+    line-height: 1.12;
+    margin-bottom: 1.75rem;
+    text-align: center;
+  }
+
   .submission-guidelines ol,
   .submission-guidelines ul {
     margin-bottom: 0.5rem;
@@ -29,6 +37,8 @@ nav_order: 2
     margin-bottom: 0.25rem;
   }
 </style>
+
+<h1 class="hsp-page-title">Submission</h1>
 
 We are happy to announce the call for abstracts for the **40th Annual Conference on Human Sentence Processing**, to be held at **Purdue University** on **May 20-22, 2027**.
 
