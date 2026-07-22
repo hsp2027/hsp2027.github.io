@@ -1,0 +1,91 @@
+---
+layout: page
+title: Code of Conduct
+permalink: /code-of-conduct/
+nav: true
+nav_order: 3
+---
+
+<style>
+  .post-header {
+    display: none;
+  }
+
+  .conduct-hero {
+    background: linear-gradient(90deg, #7d2438, #917184);
+    color: #fff;
+    margin: 0 calc(50% - 50vw) 4rem;
+    padding: 3rem 1.5rem;
+    text-align: center;
+  }
+
+  .conduct-hero h1 {
+    color: #fff;
+    font-size: clamp(2rem, 4vw, 2.75rem);
+    font-weight: 700;
+    line-height: 1.1;
+    margin: 0;
+  }
+
+  .conduct-content {
+    font-size: 1rem;
+    line-height: 1.65;
+  }
+
+  .conduct-content h2 {
+    font-size: 1.45rem;
+    font-weight: 700;
+    margin-top: 2.75rem;
+  }
+
+  .conduct-content ul {
+    margin: 1rem 0 1.25rem;
+  }
+
+  .conduct-content li {
+    margin-bottom: 0.25rem;
+  }
+
+  .conduct-adapted {
+    font-style: italic;
+    margin-top: 2.5rem;
+  }
+</style>
+
+<div class="conduct-hero">
+  <h1>Code of Conduct</h1>
+</div>
+
+<div class="conduct-content" markdown="1">
+
+HSP 2027 is committed to providing a safe, harassment-free conference experience for everyone, regardless of gender, gender identity, sexual orientation, disability, physical appearance, body size, race, age, religion, language use, ethnicity, or nationality. We do not tolerate harassment of any kind. Participants violating these rules may be sanctioned or expelled at the discretion of the conference organizers.
+
+- Verbal comments that reinforce social hierarchies based on gender, sexual orientation, disability, appearance, race, age, religion, or nationality
+- Displaying sexual images in public spaces
+- Deliberate intimidation, stalking, or following
+- Behaviors aimed at making individuals or groups feel unwelcome, or encouraging ostracism
+- Harassing photography or recording
+- Disruption of talks or other events
+- Inappropriate physical contact
+- Unwelcome sexual attention
+- Advocating for, or encouraging, any of the above behaviors
+
+These behaviors are unacceptable during both in-person interactions and in online spaces (e.g., event-related chats or social media).
+
+## Enforcement
+
+Participants who are asked to stop harassing behavior must comply immediately. Event organizers may take any action necessary to maintain a welcoming environment, including issuing warnings, expelling offenders, barring future participation, reporting incidents to the offender's institution or funding agencies, or contacting law enforcement.
+
+Organizers may take action against any behavior that disrupts the event or creates a hostile environment.
+
+We expect participants to follow these rules at all event venues (including online platforms like Zoom) and during social activities. While these rules apply to event-related activities, we encourage participants to uphold these standards outside of event activities as well.
+
+## Reporting
+
+If you feel unsafe or unwelcome, or witness behavior that violates the conference Code of Conduct, please report the incident to Elaine J. Francis (email), XXX (email), or XXX (email). We are committed to providing a welcoming, inclusive, and respectful environment for all participants.
+
+In case of an emergency, call 911 immediately. For other campus safety concerns, contact the Purdue University Police Department at (765) 494-8221.
+
+<p class="conduct-adapted">Adapted from the HSP 2025 and HSP 2026 Codes of Conduct.</p>
+
+</div>
