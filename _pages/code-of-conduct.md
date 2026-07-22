@@ -16,9 +16,17 @@ nav_order: 3
     line-height: 1.65;
   }
 
+  .conduct-title,
   .conduct-content h2 {
     font-size: 1.45rem;
     font-weight: 700;
+  }
+
+  .conduct-title {
+    margin-bottom: 1rem;
+  }
+
+  .conduct-content h2 {
     margin-top: 2.75rem;
   }
 
@@ -36,7 +44,7 @@ nav_order: 3
   }
 </style>
 
-<h1>Code of Conduct</h1>
+<h1 class="conduct-title">Code of Conduct</h1>
 
 <div class="conduct-content" markdown="1">
 
