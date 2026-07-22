@@ -93,7 +93,7 @@ nav_order: 1
         >
         <strong>{{ person.name }}</strong>
       </a>
-      <span>{{ person.title }}, {{ person.affiliation }}</span>
+      <span>{{ person.affiliation }}</span>
     </div>
   {% endfor %}
 </div>
