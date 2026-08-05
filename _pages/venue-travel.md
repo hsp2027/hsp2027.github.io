@@ -7,6 +7,18 @@ nav_order: 3
 ---
 
 <style>
+  :root {
+    --global-theme-color: #8e6f3e;
+    --global-hover-color: #8e6f3e;
+    --global-code-bg-color: rgba(142, 111, 62, 0.08);
+  }
+
+  html[data-theme="dark"] {
+    --global-theme-color: #cfb991;
+    --global-hover-color: #cfb991;
+    --global-code-bg-color: rgba(207, 185, 145, 0.12);
+  }
+
   .post-header {
     display: none;
   }
@@ -44,7 +56,7 @@ nav_order: 3
   }
 
   .travel-card h2 i {
-    color: #d08a00;
+    color: var(--global-theme-color);
     font-size: 1.2rem;
     line-height: 1;
     text-align: center;
@@ -73,7 +85,6 @@ nav_order: 3
   .travel-grid {
     display: grid;
     gap: 1rem;
-    grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
     margin: 1rem 0;
   }
 
@@ -136,6 +147,7 @@ nav_order: 3
   }
 
   .travel-jump {
+    align-items: center;
     display: flex;
     flex-wrap: wrap;
     gap: 0.45rem 0.7rem;
@@ -148,6 +160,12 @@ nav_order: 3
     border-radius: 999px;
     font-size: 0.92rem;
     padding: 0.2rem 0.65rem;
+  }
+
+  .travel-jump-label {
+    color: var(--global-text-color-light);
+    font-size: 0.92rem;
+    font-weight: 600;
   }
 
   .travel-address {
@@ -170,6 +188,7 @@ nav_order: 3
 <div class="travel-page" markdown="1">
 
 <nav class="travel-jump" aria-label="Venue and travel page sections">
+  <span class="travel-jump-label">Jump to:</span>
   <a href="#conference-venue">Conference Venue</a>
   <a href="#getting-to-campus">Getting to Campus</a>
   <a href="#accommodation">Accommodation</a>
@@ -211,7 +230,6 @@ nav_order: 3
 
 <section id="getting-to-campus" class="travel-card">
   <h2><i class="fa-solid fa-plane-arrival" aria-hidden="true"></i>Getting to Campus</h2>
-  <p>Visitors can reach Purdue by air or by car. The information below summarizes the nearest airports, shuttle services, and campus parking options.</p>
 
   <h3>By Air</h3>
   <div class="travel-grid">

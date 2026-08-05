@@ -7,6 +7,18 @@ nav_order: 1
 ---
 
 <style>
+  :root {
+    --global-theme-color: #8e6f3e;
+    --global-hover-color: #8e6f3e;
+    --global-code-bg-color: rgba(142, 111, 62, 0.08);
+  }
+
+  html[data-theme="dark"] {
+    --global-theme-color: #cfb991;
+    --global-hover-color: #cfb991;
+    --global-code-bg-color: rgba(207, 185, 145, 0.12);
+  }
+
   .post-header {
     display: none;
   }

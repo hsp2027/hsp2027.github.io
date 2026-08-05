@@ -7,6 +7,18 @@ nav_order: 2
 ---
 
 <style>
+  :root {
+    --global-theme-color: #8e6f3e;
+    --global-hover-color: #8e6f3e;
+    --global-code-bg-color: rgba(142, 111, 62, 0.08);
+  }
+
+  html[data-theme="dark"] {
+    --global-theme-color: #cfb991;
+    --global-hover-color: #cfb991;
+    --global-code-bg-color: rgba(207, 185, 145, 0.12);
+  }
+
   .post-header {
     display: none;
   }
@@ -67,6 +79,7 @@ We welcome abstracts related to the special theme as well as submissions on all 
 <div class="submission-guidelines" markdown="1">
 
 **Submission Guidelines:**
+
 1. The abstract text should not exceed one page. An optional second page may be included for figures, tables, graphics, and/or references.
 2. Submit a PDF formatted as follows:
    - 11 pt Arial font
