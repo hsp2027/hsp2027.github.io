@@ -98,13 +98,43 @@ nav_order: 3
     color: var(--global-text-color-light);
     font-size: 0.95rem;
   }
+
+  .travel-jump {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.45rem 0.7rem;
+    justify-content: center;
+    margin: -0.25rem 0 1.5rem;
+  }
+
+  .travel-jump a {
+    border: 1px solid var(--global-divider-color);
+    border-radius: 999px;
+    font-size: 0.92rem;
+    padding: 0.2rem 0.65rem;
+  }
+
+  .travel-address {
+    color: var(--global-text-color-light);
+    display: block;
+    font-size: 0.92rem;
+    margin-top: 0.15rem;
+  }
 </style>
 
 <h1 class="hsp-page-title">Venue & Travel Guide</h1>
 
 <div class="travel-page" markdown="1">
 
-<section class="travel-card travel-map">
+<nav class="travel-jump" aria-label="Venue and travel page sections">
+  <a href="#map">Map</a>
+  <a href="#conference-venue">Conference Venue</a>
+  <a href="#getting-to-campus">Getting to Campus</a>
+  <a href="#accommodation">Accommodation</a>
+  <a href="#campus-local-highlights">Campus and Local Highlights</a>
+</nav>
+
+<section id="map" class="travel-card travel-map">
   <h2>Map of Conference Venues and Important Locations</h2>
   <iframe
     title="Map of HSP 2027 conference venues and important locations"
@@ -117,47 +147,49 @@ nav_order: 3
   </p>
 </section>
 
-<section class="travel-card">
+<section id="conference-venue" class="travel-card">
   <h2>Conference Venue</h2>
   <p>HSP 2027 will be held on Purdue University's beautiful campus in West Lafayette, Indiana.</p>
   <ul>
-    <li><strong>Poster sessions:</strong> Stewart Center, 128 Memorial Mall Dr.</li>
-    <li><strong>Talks:</strong> Location to be determined. This page will be updated as soon as possible.</li>
-    <li><strong>Nearby campus hub:</strong> Purdue Memorial Union, adjacent to Stewart Center.</li>
+    <li>
+      <strong>Keynote presentations:</strong> Stewart Center (STEW), Room 214
+      <span class="travel-address">28 Memorial Mall Dr STEW G054, West Lafayette, IN 47907</span>
+    </li>
+    <li><strong>Poster sessions:</strong> TBD</li>
+    <li>
+      <strong>Reception:</strong> South Ballroom, Purdue Memorial Union
+      <span class="travel-address">101 Grant St, West Lafayette, IN 47906</span>
+    </li>
   </ul>
 </section>
 
-<section class="travel-card">
+<section id="getting-to-campus" class="travel-card">
   <h2>Getting to Campus</h2>
-  <p>Traveling to Purdue is convenient by air, shuttle, rental car, or rideshare. The closest major airport options are Indianapolis International Airport and Chicago O'Hare International Airport, with additional service through Purdue University Airport.</p>
+  <p>Traveling to Purdue University is very easy. For those who are traveling by air, there are two main ways to travel to and from campus.</p>
 
-  <div class="travel-grid">
-    <div class="travel-airport">
-      <h3>Indianapolis International Airport (IND)</h3>
-      <p>IND is about 1 hour and 15 minutes from campus. Rental cars are available at the airport, and shuttle services connect Indianapolis with West Lafayette.</p>
+  <div>
+    <div>
+      <h3>Option 1: Fly to Purdue University Airport (LAF)</h3>
+      <p>Guests may travel to <a href="https://www.purdue.edu/airport/" target="_blank" rel="noopener">Purdue University Airport</a> via United Express through Chicago O'Hare. LAF is a short five-minute drive from the main campus.</p>
     </div>
-    <div class="travel-airport">
-      <h3>Chicago O'Hare International Airport (ORD)</h3>
-      <p>ORD is about 2 hours and 15 minutes from campus. Travelers may rent a car, use airport shuttle service, or connect through Purdue University Airport.</p>
-    </div>
-    <div class="travel-airport">
-      <h3>Purdue University Airport (LAF)</h3>
-      <p>LAF is located on campus and is a short drive from the main conference area. Rideshare services and rental car options are available locally.</p>
+    <div>
+      <h3>Option 2: Fly to Indianapolis or Chicago</h3>
+      <p>Guests may travel to Indianapolis International Airport (IND) or Chicago O'Hare International Airport (ORD). IND is about 1 hour and 15 minutes from campus, and ORD is about 2 hours and 15 minutes from campus. Rental cars are available at both airports, and shuttle services connect the airports with West Lafayette. Please check shuttle schedules and book tickets in advance.</p>
     </div>
   </div>
 
   <h3>Shuttle Services</h3>
   <ul>
     <li><a href="https://www.reindeershuttle.com/" target="_blank" rel="noopener">Reindeer Shuttle</a> serves Purdue, Indianapolis International Airport, and Chicago O'Hare. Reservations are recommended.</li>
-    <li><a href="https://www.goexpresstravel.com/" target="_blank" rel="noopener">GO Express Travel</a> offers service during major Purdue travel periods and private black car service outside peak periods.</li>
     <li><a href="https://www.lafayettelimo.com/services/indianapolis-airport-shuttle-service" target="_blank" rel="noopener">Lafayette Limo</a> provides scheduled airport shuttle service between Greater Lafayette and Indianapolis International Airport.</li>
   </ul>
 
-  <h3>Parking</h3>
-  <p>The Grant Street Parking Garage (120 North Grant Street) and Harrison Street Parking Garage (719 Clinic Drive) are available for campus visitors. Visitors may also purchase daily parking permits through the Purdue Parking Portal for eligible A, B, or C lots. Metered street parking is available throughout campus.</p>
+  <h3>Campus Parking</h3>
+  <p>The Grant Street Parking Garage (120 North Grant Street) and Harrison Street Parking Garage (719 Clinic Drive) are available for campus visitors. Motorists may remain parked in either garage for up to 24 hours at a time. The garage rate is $2.00 for 0-30 minutes, $5.00 for 30-60 minutes, and $2.00 for each additional hour. Parking for the full 24 hours is $20.00.</p>
+  <p>Visitors may also purchase a daily visitor pass through the <a href="https://purdue.t2hosted.com/Account/Portal" target="_blank" rel="noopener">Purdue Parking Portal</a>, which allows parking in eligible A, B, or C lots. These passes are $8.00 per day. Metered street parking is also available throughout campus.</p>
 </section>
 
-<section class="travel-card">
+<section id="accommodation" class="travel-card">
   <h2>Accommodation</h2>
   <p>At this time, we have no conference-rate agreements for lodging. The hotels below receive positive online ratings and represent a range of price points.</p>
 
@@ -211,15 +243,26 @@ nav_order: 3
   </div>
 </section>
 
-<section class="travel-card">
-  <h2>Purdue Highlights</h2>
-  <p>The Stewart Center houses the Purdue Welcome Center and the Purdue Team Store for visitors interested in learning more about the university or picking up Boilermaker gear. Stewart Center is adjacent to the Purdue Memorial Union, which has a floor of restaurants, a bowling alley, and an on-campus hotel.</p>
+<section id="campus-local-highlights" class="travel-card">
+  <h2>Campus and Local Highlights</h2>
 
-  <p>Purdue campus is full of things to do and see during downtime. We highly recommend visiting the on-campus farmers market in Memorial Mall on Thursday afternoon to grab lunch. In Stewart Center, one floor below the HSP poster sessions, the Robert L. Ringel Gallery displays regional and international art, as well as work by Purdue visual arts scholars. Across the street at the Purdue Memorial Union, a permanent collection of sculptures by French impressionist Edgar Degas stands on the second floor.</p>
+  <h3>Purdue Campus</h3>
+  <ul>
+    <li><strong>Stewart Center:</strong> Home to the Purdue Welcome Center and Purdue Team Store, a handy stop if you would like to learn more about the university or pick up Boilermaker gear.</li>
+    <li><strong>Purdue Memorial Union:</strong> The closest and most convenient place to eat near the conference venue. The ground floor has many dining options, and the building also includes a hotel and <a href="https://events.purdue.edu/purdue_memorial_union" target="_blank" rel="noopener">activities</a> such as bowling at Union Rack and Roll.</li>
+    <li><strong>Memorial Mall farmers market:</strong> A good Thursday afternoon lunch option right on campus.</li>
+    <li><strong><a href="https://www.cla.purdue.edu/academic/rueffschool/galleries/index.html" target="_blank" rel="noopener">Robert L. Ringel Gallery</a>:</strong> Located in Stewart Center, one floor below the HSP poster sessions, with regional and international art as well as work by Purdue visual arts scholars.</li>
+    <li><strong><a href="https://www.cla.purdue.edu/academic/rueffschool/collections/degas/index.html" target="_blank" rel="noopener">Degas sculpture collection</a>:</strong> A permanent collection on the second floor of Purdue Memorial Union.</li>
+    <li><strong>Purdue Horticulture Park and campus routes:</strong> Easy options for a morning jog or walk through campus architecture and local flora.</li>
+  </ul>
 
-  <p>For runners and walkers, Purdue Horticulture Park offers a scenic route through local flora, and a run through campus offers views of Purdue architecture, from the original American Gothic buildings to contemporary halls.</p>
-
-  <p>West Lafayette and Lafayette also offer activities and midwestern charm. Lafayette's historic downtown is home to local businesses, the Art Museum of Greater Lafayette, the Haan Museum of Indiana Art, and the Lafayette Symphony Orchestra. On Thursday, May 20, renowned pianist Tuffus Zimbabwe will perform with the Lafayette Symphony Orchestra. In Battle Ground, Indiana, about a 15-minute drive from campus, Wolf Park offers visitors the chance to observe and learn about wolves, foxes, and bison.</p>
+  <h3>West Lafayette and Lafayette</h3>
+  <ul>
+    <li><strong>Historic downtown Lafayette:</strong> Local businesses, restaurants, and a bit of midwestern charm across the river from campus.</li>
+    <li><strong><a href="https://www.artlafayette.org/" target="_blank" rel="noopener">Art Museum of Greater Lafayette</a> and <a href="https://thehaan.org/" target="_blank" rel="noopener">Haan Museum of Indiana Art</a>:</strong> Two local art museums to explore during downtime.</li>
+    <li><strong><a href="https://lafayette-symphony-orchestra.my.salesforce-sites.com/ticket/#/instances/a0FUu000009J2ddMAC" target="_blank" rel="noopener">Lafayette Symphony Orchestra</a>:</strong> Pianist Tuffus Zimbabwe will perform with the orchestra on Thursday, May 20.</li>
+    <li><strong><a href="https://visitwolfpark.org/" target="_blank" rel="noopener">Wolf Park</a>:</strong> A conservation center in Battle Ground, Indiana, about a 15-minute drive from campus, where visitors can learn about wolves, foxes, and bison.</li>
+  </ul>
 </section>
 
 </div>
