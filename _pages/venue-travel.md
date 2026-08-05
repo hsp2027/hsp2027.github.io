@@ -25,17 +25,30 @@ nav_order: 3
   }
 
   .travel-card {
+    background: var(--global-bg-color);
     border: 1px solid var(--global-divider-color);
     border-radius: 8px;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.06);
     margin: 1.5rem 0;
     padding: 1.25rem;
   }
 
   .travel-card h2 {
+    align-items: center;
+    display: flex;
     font-size: 1.35rem;
     font-weight: 700;
+    gap: 0.65rem;
     margin-top: 0;
     margin-bottom: 0.85rem;
+  }
+
+  .travel-card h2 i {
+    color: #d08a00;
+    font-size: 1.2rem;
+    line-height: 1;
+    text-align: center;
+    width: 1.35rem;
   }
 
   .travel-card h3 {
@@ -70,6 +83,7 @@ nav_order: 3
   }
 
   .travel-airport h3 {
+    font-size: 1rem;
     margin-top: 0;
   }
 
@@ -135,7 +149,7 @@ nav_order: 3
 </nav>
 
 <section id="map" class="travel-card travel-map">
-  <h2>Map of Conference Venues and Important Locations</h2>
+  <h2><i class="fa-solid fa-map-location-dot" aria-hidden="true"></i>Map of Conference Venues and Important Locations</h2>
   <iframe
     title="Map of HSP 2027 conference venues and important locations"
     allowfullscreen
@@ -148,7 +162,7 @@ nav_order: 3
 </section>
 
 <section id="conference-venue" class="travel-card">
-  <h2>Conference Venue</h2>
+  <h2><i class="fa-solid fa-location-dot" aria-hidden="true"></i>Conference Venue</h2>
   <p>HSP 2027 will be held on Purdue University's beautiful campus in West Lafayette, Indiana.</p>
   <ul>
     <li>
@@ -164,33 +178,35 @@ nav_order: 3
 </section>
 
 <section id="getting-to-campus" class="travel-card">
-  <h2>Getting to Campus</h2>
-  <p>Traveling to Purdue University is very easy. For those who are traveling by air, there are two main ways to travel to and from campus.</p>
+  <h2><i class="fa-solid fa-plane-arrival" aria-hidden="true"></i>Getting to Campus</h2>
+  <p>For visitors traveling by air, Purdue University is easy to reach thanks to its proximity to two major airports and its own on-campus airport.</p>
 
-  <div>
-    <div>
-      <h3>Option 1: Fly to Purdue University Airport (LAF)</h3>
-      <p>Guests may travel to <a href="https://www.purdue.edu/airport/" target="_blank" rel="noopener">Purdue University Airport</a> via United Express through Chicago O'Hare. LAF is a short five-minute drive from the main campus.</p>
+  <div class="travel-grid">
+    <div class="travel-airport">
+      <h3><a href="https://www.purdue.edu/airport/" target="_blank" rel="noopener">Purdue University Airport (LAF)</a></h3>
+      <p>LAF is located on campus, about a five-minute drive from the main conference area. Guests may fly to LAF via United Express through Chicago O'Hare.</p>
     </div>
-    <div>
-      <h3>Option 2: Fly to Indianapolis or Chicago</h3>
-      <p>Guests may travel to Indianapolis International Airport (IND) or Chicago O'Hare International Airport (ORD). IND is about 1 hour and 15 minutes from campus, and ORD is about 2 hours and 15 minutes from campus. Rental cars are available at both airports, and shuttle services connect the airports with West Lafayette. Please check shuttle schedules and book tickets in advance.</p>
+    <div class="travel-airport">
+      <h3>Indianapolis International Airport (IND)</h3>
+      <p>IND is about 1 hour and 15 minutes from Purdue's campus.</p>
+    </div>
+    <div class="travel-airport">
+      <h3>Chicago O'Hare International Airport (ORD)</h3>
+      <p>ORD is about 2 hours and 15 minutes from Purdue's campus.</p>
     </div>
   </div>
 
-  <h3>Shuttle Services</h3>
-  <ul>
-    <li><a href="https://www.reindeershuttle.com/" target="_blank" rel="noopener">Reindeer Shuttle</a> serves Purdue, Indianapolis International Airport, and Chicago O'Hare. Reservations are recommended.</li>
-    <li><a href="https://www.lafayettelimo.com/services/indianapolis-airport-shuttle-service" target="_blank" rel="noopener">Lafayette Limo</a> provides scheduled airport shuttle service between Greater Lafayette and Indianapolis International Airport.</li>
-  </ul>
+  <p>Rental cars are available at both IND and ORD, and shuttle services connect the airports with West Lafayette. Please check shuttle schedules and book tickets in advance through <a href="https://www.reindeershuttle.com/" target="_blank" rel="noopener">Reindeer Shuttle</a> or <a href="https://www.lafayettelimo.com/services/indianapolis-airport-shuttle-service" target="_blank" rel="noopener">Lafayette Limo</a>.</p>
 
   <h3>Campus Parking</h3>
-  <p>The Grant Street Parking Garage (120 North Grant Street) and Harrison Street Parking Garage (719 Clinic Drive) are available for campus visitors. Motorists may remain parked in either garage for up to 24 hours at a time. The garage rate is $2.00 for 0-30 minutes, $5.00 for 30-60 minutes, and $2.00 for each additional hour. Parking for the full 24 hours is $20.00.</p>
-  <p>Visitors may also purchase a daily visitor pass through the <a href="https://purdue.t2hosted.com/Account/Portal" target="_blank" rel="noopener">Purdue Parking Portal</a>, which allows parking in eligible A, B, or C lots. These passes are $8.00 per day. Metered street parking is also available throughout campus.</p>
+  <p>Visitors have several parking options on and around campus:</p>
+  <p><strong>Parking garages.</strong> The Grant Street Parking Garage (120 North Grant Street) and Harrison Street Parking Garage (719 Clinic Drive) are available for campus visitors. Motorists may park in either garage for up to 24 hours at a time. Garage rates are $2.00 for 0-30 minutes, $5.00 for 30-60 minutes, $2.00 for each additional hour, and $20.00 for the full 24 hours.</p>
+  <p><strong>Daily visitor parking pass.</strong> Visitors may purchase a daily visitor pass through the <a href="https://purdue.t2hosted.com/Account/Portal" target="_blank" rel="noopener">Purdue Parking Portal</a>, which allows parking in eligible A, B, or C lots. These passes are $8.00 per day.</p>
+  <p><strong>Metered street parking.</strong> Metered street parking is available throughout campus.</p>
 </section>
 
 <section id="accommodation" class="travel-card">
-  <h2>Accommodation</h2>
+  <h2><i class="fa-solid fa-hotel" aria-hidden="true"></i>Accommodation</h2>
   <p>At this time, we have no conference-rate agreements for lodging. The hotels below receive positive online ratings and represent a range of price points.</p>
 
   <div class="travel-table-wrap">
@@ -244,7 +260,7 @@ nav_order: 3
 </section>
 
 <section id="campus-local-highlights" class="travel-card">
-  <h2>Campus and Local Highlights</h2>
+  <h2><i class="fa-solid fa-star" aria-hidden="true"></i>Campus and Local Highlights</h2>
 
   <h3>Purdue Campus</h3>
   <ul>
