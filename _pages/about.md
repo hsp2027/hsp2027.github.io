@@ -136,5 +136,8 @@ nav_order: 1
 
 ## Contact
 
-Please contact us at hsp2027@gmail.com with any questions about the conference.
-Check [HSP Society](https://www.hspsociety.org/home) for more information, and subscribe to the HSP mailing list [here](https://www.hspsociety.org/get-involved).
+For questions about **HSP 2027**, please contact the organizing committee at [hsp2027@gmail.com](mailto:hsp2027@gmail.com).
+
+For general information about the Human Sentence Processing Society, visit the [HSP Society website](https://www.hspsociety.org/home).
+
+To receive HSP announcements, including conference updates and calls for papers, subscribe to the [HSP mailing list](https://www.hspsociety.org/get-involved).
