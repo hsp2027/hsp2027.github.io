@@ -1,6 +1,7 @@
 _site
 .bundle
-.DS_store
+.DS_Store
+.Rhistory
 .idea
 .jekyll-cache
 .jekyll-metadata
@@ -15,3 +16,7 @@ node_modules/
 output/playwright/
 test-results/
 vendor
+
+# Local planning and source documents that are not part of the public site.
+PROJECT_NOTES.md
+travel.docx
