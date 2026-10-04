@@ -24,42 +24,51 @@ nav_order: 1
   }
 
   .hsp-page-title {
-    font-size: clamp(1.75rem, 2.6vw, 2.25rem);
+    color: #fff;
+    font-size: clamp(2rem, 4vw, 3.25rem);
     font-weight: 700;
     line-height: 1.12;
-    margin-bottom: 1.75rem;
+    margin: 0;
     max-width: 100%;
-    text-align: center;
     white-space: nowrap;
   }
 
+  .hsp-hero {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("https://www.purdue.edu/newsroom/wp-content/uploads/2025/10/THE-GUV26.jpg");
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+    display: flex;
+    min-height: 25rem;
+    padding: 2.5rem;
+  }
+
+  .hsp-hero-content {
+    align-self: flex-end;
+    max-width: 54rem;
+  }
+
   .hsp-event-details {
-    border-bottom: 1px solid var(--global-divider-color);
-    border-top: 1px solid var(--global-divider-color);
-    display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    margin: 0 0 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.45rem;
+    margin-top: 1.5rem;
   }
 
   .hsp-event-detail {
-    padding: 1.1rem 1.25rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
   }
 
-  .hsp-event-detail + .hsp-event-detail {
-    border-left: 1px solid var(--global-divider-color);
+  .hsp-event-label,
+  .hsp-event-value {
+    font-size: 1.1rem;
+    line-height: 1.45;
   }
 
   .hsp-event-label {
-    color: var(--global-text-color-light);
-    display: block;
-    font-size: 0.9rem;
     font-weight: 700;
-    margin-bottom: 0.35rem;
-  }
-
-  .hsp-event-value {
-    font-size: 1.08rem;
-    line-height: 1.45;
   }
 
   .hsp-theme-name {
@@ -89,50 +98,51 @@ nav_order: 1
       white-space: normal;
     }
 
-    .hsp-event-details {
-      grid-template-columns: 1fr;
-    }
-
-    .hsp-event-detail + .hsp-event-detail {
-      border-left: 0;
-      border-top: 1px solid var(--global-divider-color);
+    .hsp-hero {
+      min-height: 28rem;
+      padding: 1.5rem;
     }
   }
 
   .hsp-people {
     display: grid;
     gap: 1.5rem 1.25rem;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-    margin: 1.5rem 0 2rem;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    margin: 1.5rem auto 2rem;
+    max-width: 58rem;
   }
 
   .hsp-speakers {
     display: grid;
-    gap: 0 2rem;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1.25rem;
+    grid-template-columns: repeat(6, minmax(0, 1fr));
     margin: 1.5rem 0 2rem;
   }
 
   .hsp-speaker {
     align-items: center;
-    border-top: 1px solid var(--global-divider-color);
-    display: grid;
-    gap: 1rem;
-    grid-template-columns: 148px minmax(0, 1fr);
-    padding: 1.25rem 0;
+    background: color-mix(in srgb, var(--global-theme-color) 5%, transparent);
+    border: 1px solid var(--global-divider-color);
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    grid-column: span 2;
+    min-height: 21rem;
+    padding: 1.35rem;
+    text-align: center;
   }
 
-  .hsp-speaker:nth-child(-n + 2) {
-    border-top: 0;
+  .hsp-speaker:nth-last-child(2):nth-child(3n + 1) {
+    grid-column: 2 / span 2;
   }
 
   .hsp-speaker img {
     aspect-ratio: 1 / 1;
     border: 1px solid var(--global-divider-color);
     border-radius: 50%;
-    height: 148px;
+    height: 152px;
     object-fit: cover;
-    width: 148px;
+    width: 152px;
   }
 
   .hsp-speaker-name {
@@ -141,7 +151,7 @@ nav_order: 1
     font-size: 1.15rem;
     font-weight: 700;
     line-height: 1.25;
-    margin-bottom: 0.35rem;
+    margin: 0.9rem 0 0.35rem;
   }
 
   .hsp-speaker-role,
@@ -174,51 +184,129 @@ nav_order: 1
     aspect-ratio: 1 / 1;
     border: 1px solid var(--global-divider-color);
     border-radius: 50%;
-    height: 120px;
+    height: 96px;
     object-fit: cover;
-    width: 120px;
+    width: 96px;
   }
 
   .hsp-person strong {
     display: block;
-    font-size: 0.98rem;
-    margin-top: 0.65rem;
+    font-size: 0.9rem;
+    margin-top: 0.5rem;
   }
 
   .hsp-person span {
     color: var(--global-text-color-light);
     display: block;
-    font-size: 0.9rem;
+    font-size: 0.82rem;
     line-height: 1.35;
   }
 
   @media (max-width: 900px) {
     .hsp-speakers {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .hsp-speaker {
+      grid-column: auto;
+    }
+
+    .hsp-speaker:nth-last-child(2):nth-child(3n + 1) {
+      grid-column: auto;
+    }
+
+    .hsp-people {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      max-width: 34rem;
+    }
+  }
+
+  .hsp-people .hsp-person:nth-last-child(2):nth-child(4n + 1) {
+    grid-column: 2;
+  }
+
+  .hsp-person .hsp-person-role {
+    color: var(--global-theme-color);
+    display: block;
+    font-size: 0.78rem;
+    font-weight: 700;
+    line-height: 1.35;
+    margin-top: 0.25rem;
+  }
+
+  .hsp-dates {
+    border-top: 1px solid var(--global-divider-color);
+    margin: 1.25rem 0 0;
+    max-width: 58rem;
+  }
+
+  .hsp-date-row {
+    align-items: baseline;
+    border-bottom: 1px solid var(--global-divider-color);
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: minmax(0, 1fr) auto;
+    padding: 0.7rem 0;
+  }
+
+  .hsp-date-value {
+    text-align: right;
+    white-space: nowrap;
+  }
+
+  .hsp-date-note {
+    color: var(--global-text-color-light);
+    font-size: 0.9rem;
+    line-height: 1.45;
+    margin: 0.85rem 0 0;
+    max-width: 58rem;
+  }
+
+  @media (max-width: 600px) {
+    .hsp-speakers,
+    .hsp-people {
       grid-template-columns: 1fr;
     }
 
-    .hsp-speaker:nth-child(-n + 2) {
-      border-top: 1px solid var(--global-divider-color);
+    .hsp-speaker {
+      min-height: 0;
     }
 
-    .hsp-speaker:first-child {
-      border-top: 0;
+    .hsp-people {
+      max-width: 16rem;
+    }
+
+    .hsp-people .hsp-person:nth-last-child(2):nth-child(4n + 1) {
+      grid-column: auto;
+    }
+
+    .hsp-date-row {
+      gap: 0.2rem;
+      grid-template-columns: 1fr;
+    }
+
+    .hsp-date-value {
+      text-align: left;
     }
   }
 </style>
 
-<h1 class="hsp-page-title">40th Annual Conference on Human Sentence Processing</h1>
+<section class="hsp-hero" role="img" aria-label="Purdue University campus">
+  <div class="hsp-hero-content">
+    <h1 class="hsp-page-title">40th Annual Conference on Human Sentence Processing</h1>
 
-<div class="hsp-event-details">
-  <div class="hsp-event-detail">
-    <span class="hsp-event-label">Dates</span>
-    <div class="hsp-event-value">May 20-22, 2027</div>
+    <div class="hsp-event-details">
+      <div class="hsp-event-detail">
+        <span class="hsp-event-label">Dates:</span>
+        <span class="hsp-event-value">May 20-22, 2027</span>
+      </div>
+      <div class="hsp-event-detail">
+        <span class="hsp-event-label">Location:</span>
+        <span class="hsp-event-value">Purdue University, West Lafayette, Indiana</span>
+      </div>
+    </div>
   </div>
-  <div class="hsp-event-detail">
-    <span class="hsp-event-label">Location</span>
-    <div class="hsp-event-value">Purdue University, West Lafayette, Indiana</div>
-  </div>
-</div>
+</section>
 
 ## Special Theme
 
@@ -250,33 +338,61 @@ nav_order: 1
   {% endfor %}
 </div>
 
-## Organizing Committee
+## Organizing Team
 
 <div class="hsp-people">
   {% for person in site.data.committee %}
     <div class="hsp-person">
       <a href="{{ person.url }}" target="_blank" rel="noopener">
         <img
-          src="{{ person.photo | relative_url }}"
+          src="{% if person.photo_url %}{{ person.photo_url }}{% else %}{{ person.photo | relative_url }}{% endif %}"
           alt="{{ person.name }}"
           onerror="this.onerror=null;this.src='{{ '/assets/img/committee/placeholder.svg' | relative_url }}';"
         >
         <strong>{{ person.name }}</strong>
       </a>
       <span>{{ person.affiliation }}</span>
+      {% if person.role %}
+        <span class="hsp-person-role">{{ person.role }}</span>
+      {% endif %}
     </div>
   {% endfor %}
 </div>
 
 ## Important Dates
 
-- [Reviewer sign-up](https://docs.google.com/forms/d/e/1FAIpQLSd7m42hCJ7IXNn49TUO32HfoOCHiLx25Yi1TWes2UYvxns5nA/viewform) deadline: December 15, 2026
-- [Abstract submission](https://oxfordabstracts.com/) deadline: January 15, 2027
-- Notification of acceptance: TBA
-- [Early registration](https://www.hspsociety.org/home) deadline: TBA
-- [Conference registration](https://www.hspsociety.org/home) deadline: TBA
-- Travel grants application deadline: TBA
-- Conference dates: May 20-22, 2027
+<div class="hsp-dates">
+  <div class="hsp-date-row">
+    <span><a href="https://docs.google.com/forms/d/e/1FAIpQLSd7m42hCJ7IXNn49TUO32HfoOCHiLx25Yi1TWes2UYvxns5nA/viewform">Reviewer sign-up deadline</a></span>
+    <span class="hsp-date-value">December 15, 2026</span>
+  </div>
+  <div class="hsp-date-row">
+    <span><a href="https://oxfordabstracts.com/">Abstract submission deadline</a></span>
+    <span class="hsp-date-value">January 15, 2027</span>
+  </div>
+  <div class="hsp-date-row">
+    <span>Notification of acceptance</span>
+    <span class="hsp-date-value">TBA</span>
+  </div>
+  <div class="hsp-date-row">
+    <span><a href="https://www.hspsociety.org/home">Early registration deadline</a></span>
+    <span class="hsp-date-value">TBA</span>
+  </div>
+  <div class="hsp-date-row">
+    <span><a href="https://www.hspsociety.org/home">Conference registration deadline</a></span>
+    <span class="hsp-date-value">TBA</span>
+  </div>
+  <div class="hsp-date-row">
+    <span>Travel grants application deadline</span>
+    <span class="hsp-date-value">TBA</span>
+  </div>
+  <div class="hsp-date-row">
+    <span>Conference dates</span>
+    <span class="hsp-date-value">May 20-22, 2027</span>
+  </div>
+</div>
+
+<p class="hsp-date-note">All submission and application deadlines are at 11:59 p.m. UTC-12 (Anywhere on Earth, AoE), unless otherwise noted.</p>
 
 ## Contact
 

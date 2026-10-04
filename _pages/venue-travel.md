@@ -93,6 +93,11 @@ nav_order: 3
     padding-left: 0.85rem;
   }
 
+  .travel-option {
+    border-left: 3px solid var(--global-theme-color);
+    padding-left: 0.85rem;
+  }
+
   .travel-venue-grid {
     display: grid;
     gap: 1rem;
@@ -113,6 +118,14 @@ nav_order: 3
   }
 
   .travel-airport-title {
+    display: block;
+    font-size: 1rem;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 0.35rem;
+  }
+
+  .travel-option-title {
     display: block;
     font-size: 1rem;
     font-weight: 700;
@@ -247,13 +260,25 @@ nav_order: 3
     </div>
   </div>
 
-  <p>Rental cars are available at both IND and ORD, and shuttle services connect the airports with West Lafayette. Please check shuttle schedules and book tickets in advance through <a href="https://www.reindeershuttle.com/" target="_blank" rel="noopener">Reindeer Shuttle</a> or <a href="https://www.lafayettelimo.com/services/indianapolis-airport-shuttle-service" target="_blank" rel="noopener">Lafayette Limo</a>.</p>
+  <p>Rental cars are available at both IND and ORD.</p>
+  <p>Shuttle services connect the airports with West Lafayette. Please check schedules and book tickets in advance through <a href="https://www.reindeershuttle.com/" target="_blank" rel="noopener">Reindeer Shuttle</a> or <a href="https://www.lafayettelimo.com/services/indianapolis-airport-shuttle-service" target="_blank" rel="noopener">Lafayette Limo</a>.</p>
 
   <h3>By Car</h3>
   <p>Visitors have several parking options on and around campus:</p>
-  <p><strong>Parking garages.</strong> The Grant Street Parking Garage (120 North Grant Street) and Harrison Street Parking Garage (719 Clinic Drive) are available for campus visitors. Motorists may park in either garage for up to 24 hours at a time. Garage rates are $2.00 for 0-30 minutes, $5.00 for 30-60 minutes, $2.00 for each additional hour, and $20.00 for the full 24 hours.</p>
-  <p><strong>Daily visitor parking pass.</strong> Visitors may purchase a daily visitor pass through the <a href="https://purdue.t2hosted.com/Account/Portal" target="_blank" rel="noopener">Purdue Parking Portal</a>, which allows parking in eligible A, B, or C lots. These passes are $8.00 per day.</p>
-  <p><strong>Metered street parking.</strong> Metered street parking is available throughout campus.</p>
+  <div class="travel-grid">
+    <div class="travel-option">
+      <strong class="travel-option-title">Parking garages</strong>
+      <p>The Grant Street Parking Garage (120 North Grant Street) and Harrison Street Parking Garage (719 Clinic Drive) are available for campus visitors. Motorists may park in either garage for up to 24 hours at a time. Garage rates are $2.00 for 0-30 minutes, $5.00 for 30-60 minutes, $2.00 for each additional hour, and $20.00 for the full 24 hours.</p>
+    </div>
+    <div class="travel-option">
+      <strong class="travel-option-title">Daily visitor parking pass</strong>
+      <p>Visitors may purchase a daily visitor pass through the <a href="https://purdue.t2hosted.com/Account/Portal" target="_blank" rel="noopener">Purdue Parking Portal</a>, which allows parking in eligible A, B, or C lots. These passes are $8.00 per day.</p>
+    </div>
+    <div class="travel-option">
+      <strong class="travel-option-title">Metered street parking</strong>
+      <p>Metered street parking is available throughout campus.</p>
+    </div>
+  </div>
 </section>
 
 <section id="accommodation" class="travel-card">
