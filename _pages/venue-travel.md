@@ -200,12 +200,12 @@ nav_order: 3
   <div class="travel-venue-grid">
     <div class="travel-venue-item">
       <strong>Keynote presentations</strong>
-      Stewart Center (STEW), Room 214
-      <span class="travel-address">28 Memorial Mall Dr STEW G054, West Lafayette, IN 47907</span>
+      TBD
     </div>
     <div class="travel-venue-item">
       <strong>Poster sessions</strong>
-      TBD
+      Stewart Center (STEW), Room 214
+      <span class="travel-address">28 Memorial Mall Dr STEW G054, West Lafayette, IN 47907</span>
     </div>
     <div class="travel-venue-item">
       <strong>Reception</strong>
@@ -216,15 +216,15 @@ nav_order: 3
 
   <div class="travel-map">
     <div class="travel-map-title">Map of Conference Venues and Important Locations</div>
+    <p class="travel-note">
+      <a href="https://umap.openstreetmap.fr/en/map/hsp-2027_1436646?scaleControl=false&miniMapControl=false&scrollWheelZoom=true&zoomControl=true&editMode=disabled&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=none&captionBar=false&captionMenus=true" target="_blank" rel="noopener">Open the full-screen map</a> to view the primary conference venues, nearby parking areas, and hotel locations in greater detail.
+    </p>
     <iframe
       title="Map of HSP 2027 conference venues and important locations"
       allowfullscreen
       allow="geolocation"
       src="https://umap.openstreetmap.fr/en/map/hsp-2027_1436646?scaleControl=false&miniMapControl=false&scrollWheelZoom=false&zoomControl=true&editMode=disabled&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=none&captionBar=false&captionMenus=true"
     ></iframe>
-    <p class="travel-note">
-      <a href="https://umap.openstreetmap.fr/en/map/hsp-2027_1436646?scaleControl=false&miniMapControl=false&scrollWheelZoom=true&zoomControl=true&editMode=disabled&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=none&captionBar=false&captionMenus=true" target="_blank" rel="noopener">Open the full-screen map</a>
-    </p>
   </div>
 </section>
 
@@ -307,17 +307,17 @@ nav_order: 3
 
   <h3>Purdue Campus</h3>
   <ul>
-    <li><strong>Stewart Center:</strong> Home to the Purdue Welcome Center and Purdue Team Store, a handy stop if you would like to learn more about the university or pick up Boilermaker gear.</li>
-    <li><strong>Purdue Memorial Union:</strong> The closest and most convenient place to eat near the conference venue. The ground floor has many dining options, and the building also includes a hotel and <a href="https://events.purdue.edu/purdue_memorial_union" target="_blank" rel="noopener">activities</a> such as bowling at Union Rack and Roll.</li>
-    <li><strong>Memorial Mall farmers market:</strong> A good Thursday afternoon lunch option right on campus.</li>
+    <li><strong><a href="https://www.google.com/maps/search/?api=1&query=Stewart+Center%2C+128+Memorial+Mall%2C+West+Lafayette%2C+IN+47907" target="_blank" rel="noopener">Stewart Center</a>:</strong> Home to the Purdue Welcome Center and Purdue Team Store, a handy stop if you would like to learn more about the university or pick up Boilermaker gear.</li>
+    <li><strong><a href="https://www.purdue.edu/operations/pmu/" target="_blank" rel="noopener">Purdue Memorial Union</a>:</strong> The closest and most convenient place to eat near the conference venue. The ground floor has many dining options, and the building also includes a hotel and <a href="https://events.purdue.edu/purdue_memorial_union" target="_blank" rel="noopener">activities</a> such as bowling at Union Rack and Roll.</li>
+    <li><strong><a href="https://www.purdue.edu/operations/sustainable-ops/home/initiatives/farmers-market/" target="_blank" rel="noopener">The Purdue Farmers Market</a>:</strong> Held at Memorial Mall on Thursdays from 11 a.m. to 3 p.m. during the season. It hosts several vendors offering local fresh produce, herbs, plants and flowers, meats, and prepared food, including lunches and sweets. Please check the official site for the current schedule.</li>
     <li><strong><a href="https://www.cla.purdue.edu/academic/rueffschool/galleries/index.html" target="_blank" rel="noopener">Robert L. Ringel Gallery</a>:</strong> Located in Stewart Center, one floor below the HSP poster sessions, with regional and international art as well as work by Purdue visual arts scholars.</li>
     <li><strong><a href="https://www.cla.purdue.edu/academic/rueffschool/collections/degas/index.html" target="_blank" rel="noopener">Degas sculpture collection</a>:</strong> A permanent collection on the second floor of Purdue Memorial Union.</li>
-    <li><strong>Purdue Horticulture Park and campus routes:</strong> Easy options for a morning jog or walk through campus architecture and local flora.</li>
+    <li><strong><a href="https://www.arboretum.purdue.edu/come-learn/horticulture-park/" target="_blank" rel="noopener">Purdue Horticulture Park</a> and campus routes:</strong> Easy options for a morning jog or walk through campus architecture and local flora.</li>
   </ul>
 
   <h3>West Lafayette and Lafayette</h3>
   <ul>
-    <li><strong>Historic downtown Lafayette:</strong> Local businesses, restaurants, and a bit of midwestern charm across the river from campus.</li>
+    <li><strong><a href="https://www.homeofpurdue.com/downtown/" target="_blank" rel="noopener">Historic downtown Lafayette</a>:</strong> Local businesses, restaurants, and a bit of midwestern charm across the river from campus.</li>
     <li><strong><a href="https://www.artlafayette.org/" target="_blank" rel="noopener">Art Museum of Greater Lafayette</a> and <a href="https://thehaan.org/" target="_blank" rel="noopener">Haan Museum of Indiana Art</a>:</strong> Two local art museums to explore during downtime.</li>
     <li><strong><a href="https://lafayette-symphony-orchestra.my.salesforce-sites.com/ticket/#/instances/a0FUu000009J2ddMAC" target="_blank" rel="noopener">Lafayette Symphony Orchestra</a>:</strong> Pianist Tuffus Zimbabwe will perform with the orchestra on Thursday, May 20.</li>
     <li><strong><a href="https://visitwolfpark.org/" target="_blank" rel="noopener">Wolf Park</a>:</strong> A conservation center in Battle Ground, Indiana, about a 15-minute drive from campus, where visitors can learn about wolves, foxes, and bison.</li>

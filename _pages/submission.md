@@ -63,12 +63,11 @@ nav_order: 2
 
 <h1 class="hsp-page-title">Submission</h1>
 
-We are happy to announce the call for abstracts for the **40th Annual Conference on Human Sentence Processing**, to be held at **Purdue University** on **May 20-22, 2027**.
+We are delighted to announce the call for abstract submissions for the **40th Annual Conference on Human Sentence Processing**, to be held at **Purdue University** on **May 20-22, 2027**.
 
-The special theme for HSP 2027 is **Cognitive mechanisms of syntactic change throughout the lifespan**.
-We invite submissions that examine how and why syntactic representations develop and change across the lifespan. Relevant topics include age-related cognitive development (in both children and adults), changes in linguistic input (e.g., multilingual experience or dialect contact), and changes resulting from experimental participation, classroom language instruction, or clinical interventions.
+The special theme for HSP 2027 is **Cognitive mechanisms of syntactic change throughout the lifespan**. We invite submissions that examine how and why syntactic representations develop and change across the lifespan. Relevant topics may include age-related cognitive development in children and adults, changes in linguistic input characteristics (e.g. adapting to a new multilingual context), and changes resulting from experiment participation, written language exposure, classroom instruction, or clinical interventions.
 
-We welcome abstracts related to the special theme as well as submissions on all areas of human sentence processing. Abstracts may be submitted for either **poster** or **podium** presentations.
+We welcome abstracts related to the special theme as well as submissions related to all areas of human sentence processing. Abstracts may be submitted for either poster or podium presentations.
 
 ## Abstract Submission
 

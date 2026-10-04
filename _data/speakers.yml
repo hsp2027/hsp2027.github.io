@@ -1,25 +1,25 @@
-- name: Jiyeon Lee
-  title: Professor of Speech, Language, and Hearing Sciences
-  affiliation: Purdue University
-  url: https://www.purdue.edu/hhs/slhs/aphasia/our-team/
-  photo: /assets/img/speakers/jiyeon-lee.jpg
-- name: Evie Malaia
-  title: Associate Professor of Communicative Disorders
-  affiliation: University of Alabama
-  url: https://sites.ua.edu/malaia/pi-dr-malaia/
-  photo: /assets/img/speakers/evie-malaia.jpg
-- name: Carrie Jackson
-  title: Professor of German and Linguistics
-  affiliation: Pennsylvania State University
-  url: https://sites.psu.edu/cnj1/people/people-2/
-  photo: /assets/img/speakers/carrie-jackson.jpg
-- name: Maria Polinsky
-  title: Professor Emerita of Linguistics
-  affiliation: University of Maryland
-  url: https://www.mariapolinsky.com/
-  photo: /assets/img/speakers/maria-polinsky.jpg
 - name: Shanley Allen
   title: Professor of Psycholinguistics and Language Development
   affiliation: University of Kaiserslautern
   url: https://sowi.rptu.de/fgs/psycholinguistics/team/professor-dr-shanley-em-allen
   photo: /assets/img/speakers/shanley-allen.jpg
+- name: Carrie Jackson
+  title: Professor of German and Linguistics
+  affiliation: Pennsylvania State University
+  url: https://sites.psu.edu/cnj1/
+  photo: /assets/img/speakers/carrie-jackson.jpg
+- name: Jiyeon Lee
+  title: Professor of Speech, Language, and Hearing Sciences
+  affiliation: Purdue University
+  url: https://www.purdue.edu/hhs/slhs/aphasia/current-projects/
+  photo: /assets/img/speakers/jiyeon-lee.jpg
+- name: Evie Malaia
+  title: Associate Professor of Speech, Language, and Hearing Sciences
+  affiliation: University of Alabama
+  url: https://sites.ua.edu/malaia/
+  photo: /assets/img/speakers/evie-malaia.jpg
+- name: Maria Polinsky
+  title: Distinguished Professor of Linguistics
+  affiliation: University of Maryland
+  url: https://www.mariapolinsky.com/
+  photo: /assets/img/speakers/maria-polinsky.jpg
