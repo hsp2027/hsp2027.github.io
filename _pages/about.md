@@ -25,12 +25,12 @@ nav_order: 1
 
   .hsp-page-title {
     color: #fff;
-    font-size: clamp(2rem, 4vw, 3.25rem);
+    font-size: clamp(1.9rem, 3.25vw, 2.65rem);
     font-weight: 700;
     line-height: 1.12;
     margin: 0;
     max-width: 100%;
-    white-space: nowrap;
+    white-space: normal;
   }
 
   .hsp-hero {
@@ -63,6 +63,7 @@ nav_order: 1
 
   .hsp-event-label,
   .hsp-event-value {
+    color: #fff;
     font-size: 1.1rem;
     line-height: 1.45;
   }
@@ -83,7 +84,6 @@ nav_order: 1
     font-size: 1.03rem;
     line-height: 1.65;
     margin: 0;
-    max-width: 48rem;
   }
 
   h2 {
@@ -94,10 +94,6 @@ nav_order: 1
   }
 
   @media (max-width: 900px) {
-    .hsp-page-title {
-      white-space: normal;
-    }
-
     .hsp-hero {
       min-height: 28rem;
       padding: 1.5rem;
@@ -107,9 +103,8 @@ nav_order: 1
   .hsp-people {
     display: grid;
     gap: 1.5rem 1.25rem;
-    grid-template-columns: repeat(4, minmax(0, 1fr));
-    margin: 1.5rem auto 2rem;
-    max-width: 58rem;
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    margin: 1.5rem 0 2rem;
   }
 
   .hsp-speakers {
@@ -148,7 +143,7 @@ nav_order: 1
   .hsp-speaker-name {
     color: var(--global-text-color);
     display: inline-block;
-    font-size: 1.15rem;
+    font-size: 1.05rem;
     font-weight: 700;
     line-height: 1.25;
     margin: 0.9rem 0 0.35rem;
@@ -161,11 +156,13 @@ nav_order: 1
   }
 
   .hsp-speaker-role {
+    font-size: 0.93rem;
     line-height: 1.4;
   }
 
   .hsp-speaker-affiliation {
     color: var(--global-text-color-light);
+    font-size: 0.9rem;
     line-height: 1.4;
     margin-top: 0.2rem;
   }
@@ -221,10 +218,6 @@ nav_order: 1
     }
   }
 
-  .hsp-people .hsp-person:nth-last-child(2):nth-child(4n + 1) {
-    grid-column: 2;
-  }
-
   .hsp-person .hsp-person-role {
     color: var(--global-theme-color);
     display: block;
@@ -237,15 +230,14 @@ nav_order: 1
   .hsp-dates {
     border-top: 1px solid var(--global-divider-color);
     margin: 1.25rem 0 0;
-    max-width: 58rem;
   }
 
   .hsp-date-row {
     align-items: baseline;
     border-bottom: 1px solid var(--global-divider-color);
     display: grid;
-    gap: 1rem;
-    grid-template-columns: minmax(0, 1fr) auto;
+    gap: 1.25rem;
+    grid-template-columns: minmax(0, 17rem) max-content;
     padding: 0.7rem 0;
   }
 
@@ -259,7 +251,35 @@ nav_order: 1
     font-size: 0.9rem;
     line-height: 1.45;
     margin: 0.85rem 0 0;
-    max-width: 58rem;
+  }
+
+  .hsp-info-panels {
+    display: grid;
+    gap: 1.25rem;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    margin: 2.75rem 0;
+  }
+
+  .hsp-info-panel {
+    background: color-mix(in srgb, var(--global-theme-color) 5%, transparent);
+    border: 1px solid var(--global-divider-color);
+    border-radius: 6px;
+    padding: 1.5rem;
+  }
+
+  .hsp-info-panel h2 {
+    font-size: 1.45rem;
+    margin: 0;
+  }
+
+  .hsp-info-panel h3 {
+    font-size: 1rem;
+    font-weight: 700;
+    margin: 1.35rem 0 0.35rem;
+  }
+
+  .hsp-info-panel p {
+    margin: 0;
   }
 
   @media (max-width: 600px) {
@@ -276,10 +296,6 @@ nav_order: 1
       max-width: 16rem;
     }
 
-    .hsp-people .hsp-person:nth-last-child(2):nth-child(4n + 1) {
-      grid-column: auto;
-    }
-
     .hsp-date-row {
       gap: 0.2rem;
       grid-template-columns: 1fr;
@@ -287,6 +303,10 @@ nav_order: 1
 
     .hsp-date-value {
       text-align: left;
+    }
+
+    .hsp-info-panels {
+      grid-template-columns: 1fr;
     }
   }
 </style>
@@ -338,7 +358,7 @@ nav_order: 1
   {% endfor %}
 </div>
 
-## Organizing Team
+## Organizing Committee
 
 <div class="hsp-people">
   {% for person in site.data.committee %}
@@ -359,47 +379,51 @@ nav_order: 1
   {% endfor %}
 </div>
 
-## Important Dates
+<div class="hsp-info-panels">
+  <section class="hsp-info-panel">
+    <h2>Important Dates</h2>
+    <div class="hsp-dates">
+      <div class="hsp-date-row">
+        <span><a href="https://docs.google.com/forms/d/e/1FAIpQLSd7m42hCJ7IXNn49TUO32HfoOCHiLx25Yi1TWes2UYvxns5nA/viewform">Reviewer sign-up deadline</a></span>
+        <span class="hsp-date-value">December 15, 2026</span>
+      </div>
+      <div class="hsp-date-row">
+        <span><a href="https://oxfordabstracts.com/">Abstract submission deadline</a></span>
+        <span class="hsp-date-value">January 15, 2027</span>
+      </div>
+      <div class="hsp-date-row">
+        <span>Notification of acceptance</span>
+        <span class="hsp-date-value">TBA</span>
+      </div>
+      <div class="hsp-date-row">
+        <span><a href="https://www.hspsociety.org/home">Early registration deadline</a></span>
+        <span class="hsp-date-value">TBA</span>
+      </div>
+      <div class="hsp-date-row">
+        <span><a href="https://www.hspsociety.org/home">Conference registration deadline</a></span>
+        <span class="hsp-date-value">TBA</span>
+      </div>
+      <div class="hsp-date-row">
+        <span>Travel grants application deadline</span>
+        <span class="hsp-date-value">TBA</span>
+      </div>
+      <div class="hsp-date-row">
+        <span>Conference dates</span>
+        <span class="hsp-date-value">May 20-22, 2027</span>
+      </div>
+    </div>
+    <p class="hsp-date-note">All submission and application deadlines are at 11:59 p.m. UTC-12 (Anywhere on Earth, AoE), unless otherwise noted.</p>
+  </section>
 
-<div class="hsp-dates">
-  <div class="hsp-date-row">
-    <span><a href="https://docs.google.com/forms/d/e/1FAIpQLSd7m42hCJ7IXNn49TUO32HfoOCHiLx25Yi1TWes2UYvxns5nA/viewform">Reviewer sign-up deadline</a></span>
-    <span class="hsp-date-value">December 15, 2026</span>
-  </div>
-  <div class="hsp-date-row">
-    <span><a href="https://oxfordabstracts.com/">Abstract submission deadline</a></span>
-    <span class="hsp-date-value">January 15, 2027</span>
-  </div>
-  <div class="hsp-date-row">
-    <span>Notification of acceptance</span>
-    <span class="hsp-date-value">TBA</span>
-  </div>
-  <div class="hsp-date-row">
-    <span><a href="https://www.hspsociety.org/home">Early registration deadline</a></span>
-    <span class="hsp-date-value">TBA</span>
-  </div>
-  <div class="hsp-date-row">
-    <span><a href="https://www.hspsociety.org/home">Conference registration deadline</a></span>
-    <span class="hsp-date-value">TBA</span>
-  </div>
-  <div class="hsp-date-row">
-    <span>Travel grants application deadline</span>
-    <span class="hsp-date-value">TBA</span>
-  </div>
-  <div class="hsp-date-row">
-    <span>Conference dates</span>
-    <span class="hsp-date-value">May 20-22, 2027</span>
-  </div>
+  <section class="hsp-info-panel">
+    <h2>Get in Touch</h2>
+    <h3>Questions?</h3>
+    <p>Email: <a href="mailto:hsp2027@gmail.com">hsp2027@gmail.com</a>.</p>
+
+    <h3>Accessibility</h3>
+    <p>HSP 2027 is committed to making the conference accessible to all participants. If you have specific accessibility needs or would like to discuss accommodations, please contact us at <a href="mailto:hsp2027@gmail.com">hsp2027@gmail.com</a> as early as possible.</p>
+
+    <h3>HSP Community</h3>
+    <p>For general information about the Human Sentence Processing Society, visit the <a href="https://www.hspsociety.org/home">HSP Society website</a>. To receive announcements, subscribe to the <a href="https://www.hspsociety.org/get-involved">HSP mailing list</a>.</p>
+  </section>
 </div>
-
-<p class="hsp-date-note">All submission and application deadlines are at 11:59 p.m. UTC-12 (Anywhere on Earth, AoE), unless otherwise noted.</p>
-
-## Contact
-
-For questions about **HSP 2027**, please contact the organizing committee at [hsp2027@gmail.com](mailto:hsp2027@gmail.com).
-
-### Accessibility
-
-HSP 2027 is committed to making the conference accessible to all participants. If you have accessibility requirements or would like to discuss accommodations, please contact the organizing committee at [hsp2027@gmail.com](mailto:hsp2027@gmail.com) as early as possible.
-
-For general information about the Human Sentence Processing Society, visit the [HSP Society website](https://www.hspsociety.org/home). To receive HSP announcements, subscribe to the [HSP mailing list](https://www.hspsociety.org/get-involved).
