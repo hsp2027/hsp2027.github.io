@@ -2,7 +2,7 @@
 layout: page
 title: Home
 permalink: /
-nav: false
+nav: true
 nav_order: 1
 ---
 
@@ -288,10 +288,6 @@ nav_order: 1
     margin: 0;
   }
 
-  .hsp-info-panel .hsp-community-followup {
-    margin-top: 0.5rem;
-  }
-
   @media (max-width: 600px) {
     .hsp-speakers,
     .hsp-people {
@@ -436,6 +432,6 @@ nav_order: 1
 
     <h3>HSP Community</h3>
     <p>For general information about the Human Sentence Processing Society, visit the <a href="https://www.hspsociety.org/home">HSP Society website</a>.</p>
-    <p class="hsp-community-followup">To receive announcements, subscribe to the <a href="https://www.hspsociety.org/get-involved">HSP mailing list</a>.</p>
+    <p>To receive announcements, subscribe to the <a href="https://www.hspsociety.org/get-involved">HSP mailing list</a>.</p>
   </section>
 </div>
