@@ -74,10 +74,16 @@ nav_order: 1
 
   .hsp-theme-name {
     font-size: 1.2rem;
-    font-style: italic;
     font-weight: 700;
     line-height: 1.45;
     margin: 0 0 0.85rem;
+  }
+
+  .hsp-theme-feature {
+    background: color-mix(in srgb, var(--global-theme-color) 5%, transparent);
+    border-left: 4px solid var(--global-theme-color);
+    margin-top: 1rem;
+    padding: 1.25rem 1.5rem;
   }
 
   .hsp-theme-copy {
@@ -122,7 +128,7 @@ nav_order: 1
     display: flex;
     flex-direction: column;
     grid-column: span 2;
-    min-height: 21rem;
+    min-height: 18rem;
     padding: 1.35rem;
     text-align: center;
   }
@@ -222,7 +228,7 @@ nav_order: 1
     color: var(--global-theme-color);
     display: block;
     font-size: 0.78rem;
-    font-weight: 700;
+    font-weight: 400;
     line-height: 1.35;
     margin-top: 0.25rem;
   }
@@ -313,7 +319,7 @@ nav_order: 1
 
 <section class="hsp-hero" role="img" aria-label="Purdue University campus">
   <div class="hsp-hero-content">
-    <h1 class="hsp-page-title">40th Annual Conference on Human Sentence Processing</h1>
+    <h1 class="hsp-page-title">40th Annual Conference on Human Sentence Processing (HSP 2027)</h1>
 
     <div class="hsp-event-details">
       <div class="hsp-event-detail">
@@ -330,9 +336,10 @@ nav_order: 1
 
 ## Special Theme
 
-<p class="hsp-theme-name">Cognitive Mechanisms of Syntactic Change Throughout the Lifespan</p>
-
-<p class="hsp-theme-copy">Examining a variety of perspectives on how and why syntactic representations develop and change throughout the lifespan. Relevant topics may include age-related cognitive development in children and adults, changes in linguistic input characteristics (e.g. adapting to a new multilingual context), and changes resulting from experiment participation, written language exposure, classroom instruction, or clinical interventions.</p>
+<div class="hsp-theme-feature">
+  <p class="hsp-theme-name">Cognitive Mechanisms of Syntactic Change Throughout the Lifespan</p>
+  <p class="hsp-theme-copy">Examining a variety of perspectives on how and why syntactic representations develop and change throughout the lifespan. Relevant topics may include age-related cognitive development in children and adults, changes in linguistic input characteristics (e.g. adapting to a new multilingual context), and changes resulting from experiment participation, written language exposure, classroom instruction, or clinical interventions.</p>
+</div>
 
 ## Invited Speakers
 
@@ -417,10 +424,10 @@ nav_order: 1
 
   <section class="hsp-info-panel">
     <h2>Get in Touch</h2>
-    <h3>Questions?</h3>
-    <p>Email: <a href="mailto:hsp2027@gmail.com">hsp2027@gmail.com</a>.</p>
+    <h3>Questions about HSP 2027?</h3>
+    <p>Please email us at <a href="mailto:hsp2027@gmail.com">hsp2027@gmail.com</a>.</p>
 
-    <h3>Accessibility</h3>
+    <h3>Accessibility and Accommodations</h3>
     <p>HSP 2027 is committed to making the conference accessible to all participants. If you have specific accessibility needs or would like to discuss accommodations, please contact us at <a href="mailto:hsp2027@gmail.com">hsp2027@gmail.com</a> as early as possible.</p>
 
     <h3>HSP Community</h3>
