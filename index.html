@@ -31,16 +31,48 @@
     white-space: nowrap;
   }
 
-  .hsp-lede {
-    margin-bottom: 2rem;
+  .hsp-event-details {
+    border-bottom: 1px solid var(--global-divider-color);
+    border-top: 1px solid var(--global-divider-color);
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    margin: 0 0 3rem;
   }
 
-  .hsp-lede p {
-    margin: 0 0 0.65rem;
+  .hsp-event-detail {
+    padding: 1.1rem 1.25rem;
   }
 
-  .hsp-lede p:last-child {
-    margin-bottom: 0;
+  .hsp-event-detail + .hsp-event-detail {
+    border-left: 1px solid var(--global-divider-color);
+  }
+
+  .hsp-event-label {
+    color: var(--global-text-color-light);
+    display: block;
+    font-size: 0.9rem;
+    font-weight: 700;
+    margin-bottom: 0.35rem;
+  }
+
+  .hsp-event-value {
+    font-size: 1.08rem;
+    line-height: 1.45;
+  }
+
+  .hsp-theme-name {
+    font-size: 1.2rem;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 1.45;
+    margin: 0 0 0.85rem;
+  }
+
+  .hsp-theme-copy {
+    font-size: 1.03rem;
+    line-height: 1.65;
+    margin: 0;
+    max-width: 48rem;
   }
 
   h2 {
@@ -54,6 +86,15 @@
     .hsp-page-title {
       white-space: normal;
     }
+
+    .hsp-event-details {
+      grid-template-columns: 1fr;
+    }
+
+    .hsp-event-detail + .hsp-event-detail {
+      border-left: 0;
+      border-top: 1px solid var(--global-divider-color);
+    }
   }
 
   .hsp-people {
@@ -61,6 +102,66 @@
     gap: 1.5rem 1.25rem;
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     margin: 1.5rem 0 2rem;
+  }
+
+  .hsp-speakers {
+    display: grid;
+    gap: 0 2rem;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    margin: 1.5rem 0 2rem;
+  }
+
+  .hsp-speaker {
+    align-items: center;
+    border-top: 1px solid var(--global-divider-color);
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 148px minmax(0, 1fr);
+    padding: 1.25rem 0;
+  }
+
+  .hsp-speaker:nth-child(-n + 2) {
+    border-top: 0;
+  }
+
+  .hsp-speaker img {
+    aspect-ratio: 1 / 1;
+    border: 1px solid var(--global-divider-color);
+    border-radius: 50%;
+    height: 148px;
+    object-fit: cover;
+    width: 148px;
+  }
+
+  .hsp-speaker-name {
+    color: var(--global-text-color);
+    display: inline-block;
+    font-size: 1.15rem;
+    font-weight: 700;
+    line-height: 1.25;
+    margin-bottom: 0.35rem;
+  }
+
+  .hsp-speaker-role,
+  .hsp-speaker-affiliation,
+  .hsp-speaker-talk {
+    margin: 0;
+  }
+
+  .hsp-speaker-role {
+    line-height: 1.4;
+  }
+
+  .hsp-speaker-affiliation {
+    color: var(--global-text-color-light);
+    line-height: 1.4;
+    margin-top: 0.2rem;
+  }
+
+  .hsp-speaker-talk {
+    font-style: italic;
+    line-height: 1.4;
+    margin-top: 0.65rem;
   }
 
   .hsp-person {
@@ -88,7 +189,21 @@
     font-size: 0.9rem;
     line-height: 1.35;
   }
-</style> <h1 class="hsp-page-title">40th Annual Conference on Human Sentence Processing</h1> <div class="hsp-lede"> <p><strong>Dates:</strong> May 20-22, 2027</p> <p><strong>Location:</strong> Purdue University, West Lafayette, Indiana</p> <p><strong>Special theme:</strong> Cognitive Mechanisms of Syntactic Change Throughout the Lifespan</p> </div> <h2 id="invited-speakers">Invited Speakers</h2> <div class="hsp-people"> <div class="hsp-person"> <a href="https://www.purdue.edu/hhs/slhs/aphasia/our-team/" target="_blank" rel="noopener"> <img src="/assets/img/speakers/jiyeon-lee.jpg" alt="Jiyeon Lee" onerror="this.onerror=null;this.src='/assets/img/committee/placeholder.svg';"> <strong>Jiyeon Lee</strong> </a> <span>Purdue University</span> </div> <div class="hsp-person"> <a href="https://sites.ua.edu/malaia/pi-dr-malaia/" target="_blank" rel="noopener"> <img src="/assets/img/speakers/evie-malaia.jpg" alt="Evie Malaia" onerror="this.onerror=null;this.src='/assets/img/committee/placeholder.svg';"> <strong>Evie Malaia</strong> </a> <span>University of Alabama</span> </div> <div class="hsp-person"> <a href="https://sites.psu.edu/cnj1/people/people-2/" target="_blank" rel="noopener"> <img src="/assets/img/speakers/carrie-jackson.jpg" alt="Carrie Jackson" onerror="this.onerror=null;this.src='/assets/img/committee/placeholder.svg';"> <strong>Carrie Jackson</strong> </a> <span>Pennsylvania State University</span> </div> <div class="hsp-person"> <a href="https://www.mariapolinsky.com/" target="_blank" rel="noopener"> <img src="/assets/img/speakers/maria-polinsky.jpg" alt="Maria Polinsky" onerror="this.onerror=null;this.src='/assets/img/committee/placeholder.svg';"> <strong>Maria Polinsky</strong> </a> <span>University of Maryland</span> </div> <div class="hsp-person"> <a href="https://sowi.rptu.de/fgs/psycholinguistics/team/professor-dr-shanley-em-allen" target="_blank" rel="noopener"> <img src="/assets/img/speakers/shanley-allen.jpg" alt="Shanley Allen" onerror="this.onerror=null;this.src='/assets/img/committee/placeholder.svg';"> <strong>Shanley Allen</strong> </a> <span>University of Kaiserslautern</span> </div> </div> <h2 id="organizing-committee">Organizing Committee</h2> <div class="hsp-people"> <div class="hsp-person"> <a href="https://cla.purdue.edu/english/francislab/elaine-francis-homepage/" target="_blank" rel="noopener"> <img src="/assets/img/committee/elaine-francis.jpg" alt="Elaine J. Francis" onerror="this.onerror=null;this.src='/assets/img/committee/placeholder.svg';"> <strong>Elaine J. Francis</strong> </a> <span>Purdue University</span> </div> <div class="hsp-person"> <a href="https://www.cla.purdue.edu/directory/profiles/yan-cong.html" target="_blank" rel="noopener"> <img src="/assets/img/committee/yan-cong.jpg" alt="Yan Cong" onerror="this.onerror=null;this.src='/assets/img/committee/placeholder.svg';"> <strong>Yan Cong</strong> </a> <span>Purdue University</span> </div> <div class="hsp-person"> <a href="https://www.linkedin.com/in/parisgap/" target="_blank" rel="noopener"> <img src="/assets/img/committee/paris-gappmayr.jpg" alt="Paris Gappmayr" onerror="this.onerror=null;this.src='/assets/img/committee/placeholder.svg';"> <strong>Paris Gappmayr</strong> </a> <span>Purdue University</span> </div> <div class="hsp-person"> <a href="https://www.cla.purdue.edu/directory/profiles/ronnie-wilbur.html" target="_blank" rel="noopener"> <img src="/assets/img/committee/ronnie-wilbur.jpg" alt="Ronnie B. Wilbur" onerror="this.onerror=null;this.src='/assets/img/committee/placeholder.svg';"> <strong>Ronnie B. Wilbur</strong> </a> <span>Purdue University</span> </div> <div class="hsp-person"> <a href="https://www.cla.purdue.edu/faculty-staff/profiles/promoted/promotions-18/olson-daniel.html" target="_blank" rel="noopener"> <img src="/assets/img/committee/daniel-olson.jpg" alt="Daniel J. Olson" onerror="this.onerror=null;this.src='/assets/img/committee/placeholder.svg';"> <strong>Daniel J. Olson</strong> </a> <span>Purdue University</span> </div> <div class="hsp-person"> <a href="https://www.cla.purdue.edu/directory/profiles/elena-benedicto.html" target="_blank" rel="noopener"> <img src="/assets/img/committee/elena-benedicto.jpg" alt="Elena E. Benedicto" onerror="this.onerror=null;this.src='/assets/img/committee/placeholder.svg';"> <strong>Elena E. Benedicto</strong> </a> <span>Purdue University</span> </div> <div class="hsp-person"> <a href="https://shaohua-fang.com/" target="_blank" rel="noopener"> <img src="/assets/img/committee/shaohua-fang.jpg" alt="Shaohua Fang" onerror="this.onerror=null;this.src='/assets/img/committee/placeholder.svg';"> <strong>Shaohua Fang</strong> </a> <span>Montclair State University</span> </div> <div class="hsp-person"> <a href="https://www.cla.purdue.edu/directory/profiles/alejandro-cuza.html" target="_blank" rel="noopener"> <img src="/assets/img/committee/alejandro-cuza.jpg" alt="Alejandro Cuza" onerror="this.onerror=null;this.src='/assets/img/committee/placeholder.svg';"> <strong>Alejandro Cuza</strong> </a> <span>Purdue University</span> </div> </div> <h2 id="important-dates">Important Dates</h2> <ul> <li> <a href="https://docs.google.com/forms/d/e/1FAIpQLSd7m42hCJ7IXNn49TUO32HfoOCHiLx25Yi1TWes2UYvxns5nA/viewform" rel="external nofollow noopener" target="_blank">Reviewer sign-up</a> deadline: December 15, 2026</li> <li> <a href="https://oxfordabstracts.com/" rel="external nofollow noopener" target="_blank">Abstract submission</a> deadline: January 15, 2027</li> <li>Notification of acceptance: TBA</li> <li> <a href="https://www.hspsociety.org/home" rel="external nofollow noopener" target="_blank">Early registration</a> deadline: TBA</li> <li> <a href="https://www.hspsociety.org/home" rel="external nofollow noopener" target="_blank">Conference registration</a> deadline: TBA</li> <li>Travel grants application deadline: TBA</li> <li>Conference dates: May 20-22, 2027</li> </ul> <h2 id="contact">Contact</h2> <p>For questions about <strong>HSP 2027</strong>, please contact the organizing committee at <a href="mailto:hsp2027@gmail.com">hsp2027@gmail.com</a>.</p> <p>For general information about the Human Sentence Processing Society, visit the <a href="https://www.hspsociety.org/home" rel="external nofollow noopener" target="_blank">HSP Society website</a>. To receive HSP announcements, subscribe to the <a href="https://www.hspsociety.org/get-involved" rel="external nofollow noopener" target="_blank">HSP mailing list</a>.</p> </article> </div> </div> <footer class="fixed-bottom" role="contentinfo"> <div class="container mt-0"> © Copyright 2026 . 40th Annual Conference on Human Sentence Processing | Purdue University | May 20-22, 2027. </div> </footer> <script>
+
+  @media (max-width: 900px) {
+    .hsp-speakers {
+      grid-template-columns: 1fr;
+    }
+
+    .hsp-speaker:nth-child(-n + 2) {
+      border-top: 1px solid var(--global-divider-color);
+    }
+
+    .hsp-speaker:first-child {
+      border-top: 0;
+    }
+  }
+</style> <h1 class="hsp-page-title">40th Annual Conference on Human Sentence Processing</h1> <div class="hsp-event-details"> <div class="hsp-event-detail"> <span class="hsp-event-label">Dates</span> <div class="hsp-event-value">May 20-22, 2027</div> </div> <div class="hsp-event-detail"> <span class="hsp-event-label">Location</span> <div class="hsp-event-value">Purdue University, West Lafayette, Indiana</div> </div> </div> <h2 id="special-theme">Special Theme</h2> <p class="hsp-theme-name">Cognitive Mechanisms of Syntactic Change Throughout the Lifespan</p> <p class="hsp-theme-copy">Examining a variety of perspectives on how and why syntactic representations develop and change throughout the lifespan. Relevant topics may include age-related cognitive development in children and adults, changes in linguistic input characteristics (e.g. adapting to a new multilingual context), and changes resulting from experiment participation, written language exposure, classroom instruction, or clinical interventions.</p> <h2 id="invited-speakers">Invited Speakers</h2> <div class="hsp-speakers"> <div class="hsp-speaker"> <a href="https://sowi.rptu.de/fgs/psycholinguistics/team/professor-dr-shanley-em-allen" target="_blank" rel="noopener"> <img src="/assets/img/speakers/shanley-allen.jpg" alt="Shanley Allen" onerror="this.onerror=null;this.src='/assets/img/committee/placeholder.svg';"> </a> <div> <a class="hsp-speaker-name" href="https://sowi.rptu.de/fgs/psycholinguistics/team/professor-dr-shanley-em-allen" target="_blank" rel="noopener">Shanley Allen</a> <p class="hsp-speaker-role">Professor of Psycholinguistics and Language Development</p> <p class="hsp-speaker-affiliation">University of Kaiserslautern</p> </div> </div> <div class="hsp-speaker"> <a href="https://sites.psu.edu/cnj1/" target="_blank" rel="noopener"> <img src="/assets/img/speakers/carrie-jackson.jpg" alt="Carrie Jackson" onerror="this.onerror=null;this.src='/assets/img/committee/placeholder.svg';"> </a> <div> <a class="hsp-speaker-name" href="https://sites.psu.edu/cnj1/" target="_blank" rel="noopener">Carrie Jackson</a> <p class="hsp-speaker-role">Professor of German and Linguistics</p> <p class="hsp-speaker-affiliation">Pennsylvania State University</p> </div> </div> <div class="hsp-speaker"> <a href="https://www.purdue.edu/hhs/slhs/aphasia/current-projects/" target="_blank" rel="noopener"> <img src="/assets/img/speakers/jiyeon-lee.jpg" alt="Jiyeon Lee" onerror="this.onerror=null;this.src='/assets/img/committee/placeholder.svg';"> </a> <div> <a class="hsp-speaker-name" href="https://www.purdue.edu/hhs/slhs/aphasia/current-projects/" target="_blank" rel="noopener">Jiyeon Lee</a> <p class="hsp-speaker-role">Professor of Speech, Language, and Hearing Sciences</p> <p class="hsp-speaker-affiliation">Purdue University</p> </div> </div> <div class="hsp-speaker"> <a href="https://sites.ua.edu/malaia/" target="_blank" rel="noopener"> <img src="/assets/img/speakers/evie-malaia.jpg" alt="Evie Malaia" onerror="this.onerror=null;this.src='/assets/img/committee/placeholder.svg';"> </a> <div> <a class="hsp-speaker-name" href="https://sites.ua.edu/malaia/" target="_blank" rel="noopener">Evie Malaia</a> <p class="hsp-speaker-role">Associate Professor of Speech, Language, and Hearing Sciences</p> <p class="hsp-speaker-affiliation">University of Alabama</p> </div> </div> <div class="hsp-speaker"> <a href="https://www.mariapolinsky.com/" target="_blank" rel="noopener"> <img src="/assets/img/speakers/maria-polinsky.jpg" alt="Maria Polinsky" onerror="this.onerror=null;this.src='/assets/img/committee/placeholder.svg';"> </a> <div> <a class="hsp-speaker-name" href="https://www.mariapolinsky.com/" target="_blank" rel="noopener">Maria Polinsky</a> <p class="hsp-speaker-role">Distinguished Professor of Linguistics</p> <p class="hsp-speaker-affiliation">University of Maryland</p> </div> </div> </div> <h2 id="organizing-committee">Organizing Committee</h2> <div class="hsp-people"> <div class="hsp-person"> <a href="https://www.cla.purdue.edu/directory/profiles/elena-benedicto.html" target="_blank" rel="noopener"> <img src="/assets/img/committee/elena-benedicto.jpg" alt="Elena E. Benedicto" onerror="this.onerror=null;this.src='/assets/img/committee/placeholder.svg';"> <strong>Elena E. Benedicto</strong> </a> <span>Purdue University</span> </div> <div class="hsp-person"> <a href="https://www.cla.purdue.edu/directory/profiles/yan-cong.html" target="_blank" rel="noopener"> <img src="/assets/img/committee/yan-cong.jpg" alt="Yan Cong" onerror="this.onerror=null;this.src='/assets/img/committee/placeholder.svg';"> <strong>Yan Cong</strong> </a> <span>Purdue University</span> </div> <div class="hsp-person"> <a href="https://www.cla.purdue.edu/directory/profiles/alejandro-cuza.html" target="_blank" rel="noopener"> <img src="/assets/img/committee/alejandro-cuza.jpg" alt="Alejandro Cuza" onerror="this.onerror=null;this.src='/assets/img/committee/placeholder.svg';"> <strong>Alejandro Cuza</strong> </a> <span>Purdue University</span> </div> <div class="hsp-person"> <a href="https://shaohua-fang.com/" target="_blank" rel="noopener"> <img src="/assets/img/committee/shaohua-fang.jpg" alt="Shaohua Fang" onerror="this.onerror=null;this.src='/assets/img/committee/placeholder.svg';"> <strong>Shaohua Fang</strong> </a> <span>Montclair State University</span> </div> <div class="hsp-person"> <a href="https://cla.purdue.edu/english/francislab/elaine-francis-homepage/" target="_blank" rel="noopener"> <img src="/assets/img/committee/elaine-francis.jpg" alt="Elaine J. Francis" onerror="this.onerror=null;this.src='/assets/img/committee/placeholder.svg';"> <strong>Elaine J. Francis</strong> </a> <span>Purdue University</span> </div> <div class="hsp-person"> <a href="https://www.linkedin.com/in/parisgap/" target="_blank" rel="noopener"> <img src="/assets/img/committee/paris-gappmayr.jpg" alt="Paris Gappmayr" onerror="this.onerror=null;this.src='/assets/img/committee/placeholder.svg';"> <strong>Paris Gappmayr</strong> </a> <span>Purdue University</span> </div> <div class="hsp-person"> <a href="https://www.cla.purdue.edu/faculty-staff/profiles/promoted/promotions-18/olson-daniel.html" target="_blank" rel="noopener"> <img src="/assets/img/committee/daniel-olson.jpg" alt="Daniel J. Olson" onerror="this.onerror=null;this.src='/assets/img/committee/placeholder.svg';"> <strong>Daniel J. Olson</strong> </a> <span>Purdue University</span> </div> <div class="hsp-person"> <a href="https://www.cla.purdue.edu/directory/profiles/ronnie-wilbur.html" target="_blank" rel="noopener"> <img src="/assets/img/committee/ronnie-wilbur.jpg" alt="Ronnie B. Wilbur" onerror="this.onerror=null;this.src='/assets/img/committee/placeholder.svg';"> <strong>Ronnie B. Wilbur</strong> </a> <span>Purdue University</span> </div> </div> <h2 id="important-dates">Important Dates</h2> <ul> <li> <a href="https://docs.google.com/forms/d/e/1FAIpQLSd7m42hCJ7IXNn49TUO32HfoOCHiLx25Yi1TWes2UYvxns5nA/viewform" rel="external nofollow noopener" target="_blank">Reviewer sign-up</a> deadline: December 15, 2026</li> <li> <a href="https://oxfordabstracts.com/" rel="external nofollow noopener" target="_blank">Abstract submission</a> deadline: January 15, 2027</li> <li>Notification of acceptance: TBA</li> <li> <a href="https://www.hspsociety.org/home" rel="external nofollow noopener" target="_blank">Early registration</a> deadline: TBA</li> <li> <a href="https://www.hspsociety.org/home" rel="external nofollow noopener" target="_blank">Conference registration</a> deadline: TBA</li> <li>Travel grants application deadline: TBA</li> <li>Conference dates: May 20-22, 2027</li> </ul> <h2 id="contact">Contact</h2> <p>For questions about <strong>HSP 2027</strong>, please contact the organizing committee at <a href="mailto:hsp2027@gmail.com">hsp2027@gmail.com</a>.</p> <h3 id="accessibility">Accessibility</h3> <p>HSP 2027 is committed to making the conference accessible to all participants. If you have accessibility requirements or would like to discuss accommodations, please contact the organizing committee at <a href="mailto:hsp2027@gmail.com">hsp2027@gmail.com</a> as early as possible.</p> <p>For general information about the Human Sentence Processing Society, visit the <a href="https://www.hspsociety.org/home" rel="external nofollow noopener" target="_blank">HSP Society website</a>. To receive HSP announcements, subscribe to the <a href="https://www.hspsociety.org/get-involved" rel="external nofollow noopener" target="_blank">HSP mailing list</a>.</p> </article> </div> </div> <footer class="fixed-bottom" role="contentinfo"> <div class="container mt-0"> © Copyright 2026 . 40th Annual Conference on Human Sentence Processing | Purdue University | May 20-22, 2027. </div> </footer> <script>
   window.alFolio = {
     compatBootstrap: false
   };
