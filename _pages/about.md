@@ -288,6 +288,10 @@ nav_order: 1
     margin: 0;
   }
 
+  .hsp-info-panel .hsp-community-followup {
+    margin-top: 0.5rem;
+  }
+
   @media (max-width: 600px) {
     .hsp-speakers,
     .hsp-people {
@@ -431,6 +435,7 @@ nav_order: 1
     <p>HSP 2027 is committed to making the conference accessible to all participants. If you have specific accessibility needs or would like to discuss accommodations, please contact us at <a href="mailto:hsp2027@gmail.com">hsp2027@gmail.com</a> as early as possible.</p>
 
     <h3>HSP Community</h3>
-    <p>For general information about the Human Sentence Processing Society, visit the <a href="https://www.hspsociety.org/home">HSP Society website</a>. To receive announcements, subscribe to the <a href="https://www.hspsociety.org/get-involved">HSP mailing list</a>.</p>
+    <p>For general information about the Human Sentence Processing Society, visit the <a href="https://www.hspsociety.org/home">HSP Society website</a>.</p>
+    <p class="hsp-community-followup">To receive announcements, subscribe to the <a href="https://www.hspsociety.org/get-involved">HSP mailing list</a>.</p>
   </section>
 </div>
