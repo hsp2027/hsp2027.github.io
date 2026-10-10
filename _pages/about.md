@@ -400,19 +400,19 @@ nav_order: 1
       </div>
       <div class="hsp-date-row">
         <span>Notification of acceptance</span>
-        <span class="hsp-date-value">TBA</span>
+        <span class="hsp-date-value">March 1, 2027</span>
       </div>
       <div class="hsp-date-row">
         <span><a href="https://www.hspsociety.org/home">Early registration deadline</a></span>
-        <span class="hsp-date-value">TBA</span>
+        <span class="hsp-date-value">April 15, 2027</span>
       </div>
       <div class="hsp-date-row">
         <span><a href="https://www.hspsociety.org/home">Conference registration deadline</a></span>
-        <span class="hsp-date-value">TBA</span>
+        <span class="hsp-date-value">May 22, 2027</span>
       </div>
       <div class="hsp-date-row">
         <span>Travel grants application deadline</span>
-        <span class="hsp-date-value">TBA</span>
+        <span class="hsp-date-value">April 15, 2027</span>
       </div>
       <div class="hsp-date-row">
         <span>Conference dates</span>
