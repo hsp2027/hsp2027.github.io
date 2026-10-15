@@ -170,10 +170,16 @@ nav_order: 1
   }
 
   .hsp-speaker-talk {
-    font-size: 0.98rem;
-    font-style: italic;
-    line-height: 1.4;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5;
     margin-top: 0.65rem;
+  }
+
+  .hsp-speaker-talk-label {
+    color: var(--global-theme-color);
+    font-weight: 700;
   }
 
   .hsp-person {
@@ -375,7 +381,7 @@ nav_order: 1
         <p class="hsp-speaker-role">{{ person.title }}</p>
         <p class="hsp-speaker-affiliation">{{ person.affiliation }}</p>
         {% if person.talk_title %}
-          <p class="hsp-speaker-talk">Talk: {{ person.talk_title }}</p>
+          <p class="hsp-speaker-talk"><span class="hsp-speaker-talk-label">Talk:</span> {{ person.talk_title }}</p>
         {% endif %}
       </div>
     </div>
