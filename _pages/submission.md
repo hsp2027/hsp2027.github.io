@@ -73,7 +73,7 @@ We welcome abstracts related to the special theme as well as submissions related
 
 **Submission portal:** Please submit your abstract via [Oxford Abstracts](https://app.oxfordabstracts.com/stages/83703/submitter).
 
-**Submission deadline:** January 15, 2027
+**Submission deadline:** January 15, 2027, at 11:59 p.m. Anywhere on Earth (AoE).
 
 <div class="submission-guidelines" markdown="1">
 

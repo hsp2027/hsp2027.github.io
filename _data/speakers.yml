@@ -1,25 +1,30 @@
 - name: Shanley Allen
   title: Professor of Psycholinguistics and Language Development
-  affiliation: University of Kaiserslautern
+  affiliation: RPTU University Kaiserslautern-Landau
   url: https://sowi.rptu.de/fgs/psycholinguistics/team/professor-dr-shanley-em-allen
   photo: /assets/img/speakers/shanley-allen.jpg
+  talk_title: "Changes in syntactic representation driven by development and context: Insights from child and adult bilinguals"
 - name: Carrie Jackson
   title: Professor of German and Linguistics
   affiliation: Pennsylvania State University
   url: https://sites.psu.edu/cnj1/people/people-2/
-  photo: /assets/img/speakers/carrie-jackson.JPG
+  photo: /assets/img/speakers/carrie-jackson.jpg
+  talk_title: "How priming and prediction can (but don't always) support second-language learning"
 - name: Jiyeon Lee
   title: Professor of Speech, Language, and Hearing Sciences
   affiliation: Purdue University
   url: https://www.purdue.edu/hhs/slhs/aphasia/our-team/
   photo: /assets/img/speakers/jiyeon-lee.jpg
+  talk_title: "Syntactic learning and recovery in aphasia"
 - name: Evie Malaia
   title: Associate Professor of Speech, Language, and Hearing Sciences
   affiliation: University of Alabama
   url: https://sites.ua.edu/malaia/pi-dr-malaia/
   photo: /assets/img/speakers/evie-malaia.jpg
+  talk_title: "Built early, kept late: Age of acquisition, aging, and the neural timescales of prediction in sign languages"
 - name: Maria Polinsky
   title: Distinguished Professor of Linguistics
   affiliation: University of Maryland
   url: https://www.mariapolinsky.com/
   photo: /assets/img/speakers/maria-polinsky.jpeg
+  talk_title: "Title TBD"

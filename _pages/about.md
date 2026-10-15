@@ -288,6 +288,28 @@ nav_order: 1
     margin: 0;
   }
 
+  .hsp-sponsors {
+    border-top: 1px solid var(--global-divider-color);
+    margin: 0 0 2.75rem;
+    padding-top: 2rem;
+  }
+
+  .hsp-sponsors h2 {
+    margin-top: 0;
+  }
+
+  .hsp-sponsor-list {
+    display: grid;
+    gap: 0.75rem 2rem;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    margin-top: 1rem;
+  }
+
+  .hsp-sponsor-list a {
+    font-size: 1.02rem;
+    line-height: 1.45;
+  }
+
   @media (max-width: 600px) {
     .hsp-speakers,
     .hsp-people {
@@ -312,6 +334,10 @@ nav_order: 1
     }
 
     .hsp-info-panels {
+      grid-template-columns: 1fr;
+    }
+
+    .hsp-sponsor-list {
       grid-template-columns: 1fr;
     }
   }
@@ -403,11 +429,11 @@ nav_order: 1
         <span class="hsp-date-value">March 1, 2027</span>
       </div>
       <div class="hsp-date-row">
-        <span><a href="https://www.hspsociety.org/home">Early registration deadline</a></span>
+        <span>Early registration deadline</span>
         <span class="hsp-date-value">April 15, 2027</span>
       </div>
       <div class="hsp-date-row">
-        <span><a href="https://www.hspsociety.org/home">Conference registration deadline</a></span>
+        <span>Conference registration deadline</span>
         <span class="hsp-date-value">May 22, 2027</span>
       </div>
       <div class="hsp-date-row">
@@ -425,13 +451,23 @@ nav_order: 1
   <section class="hsp-info-panel">
     <h2>Get in Touch</h2>
     <h3>Questions about HSP 2027?</h3>
-    <p>Please email us at <a href="mailto:hsp2027@gmail.com">hsp2027@gmail.com</a>.</p>
+    <p>Please email us at <a href="mailto:hsp2027purdue@gmail.com">hsp2027purdue@gmail.com</a>.</p>
 
     <h3>Accessibility and Accommodations</h3>
-    <p>HSP 2027 is committed to making the conference accessible to all participants. If you have specific accessibility needs or would like to discuss accommodations, please contact us at <a href="mailto:hsp2027@gmail.com">hsp2027@gmail.com</a> as early as possible.</p>
+    <p>HSP 2027 is committed to making the conference accessible to all participants. If you have specific accessibility needs or would like to discuss accommodations, please contact us at <a href="mailto:hsp2027purdue@gmail.com">hsp2027purdue@gmail.com</a> as early as possible.</p>
 
     <h3>HSP Community</h3>
     <p>For general information about the Human Sentence Processing Society, visit the <a href="https://www.hspsociety.org/home">HSP Society website</a>.</p>
     <p>To receive announcements, subscribe to the <a href="https://www.hspsociety.org/get-involved">HSP mailing list</a>.</p>
   </section>
 </div>
+
+<section class="hsp-sponsors">
+  <h2>Sponsors</h2>
+  <div class="hsp-sponsor-list">
+    <a href="https://www.cla.purdue.edu/" target="_blank" rel="noopener">Purdue University, College of Liberal Arts</a>
+    <a href="https://www.cla.purdue.edu/academic/sis/index.html" target="_blank" rel="noopener">Purdue University, School of Interdisciplinary Studies</a>
+    <a href="https://www.cla.purdue.edu/academic/slc/index.html" target="_blank" rel="noopener">Purdue University, School of Languages and Cultures</a>
+    <a href="https://umich.edu/" target="_blank" rel="noopener">University of Michigan</a>
+  </div>
+</section>

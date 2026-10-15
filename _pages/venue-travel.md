@@ -260,7 +260,7 @@ nav_order: 3
     </div>
   </div>
 
-  <p>Rental cars are available at both IND and ORD.</p>
+  <p>Rental cars are available at all three airports.</p>
   <p>Shuttle services connect the airports with West Lafayette. Please check schedules and book tickets in advance through <a href="https://www.reindeershuttle.com/" target="_blank" rel="noopener">Reindeer Shuttle</a> or <a href="https://www.lafayettelimo.com/services/indianapolis-airport-shuttle-service" target="_blank" rel="noopener">Lafayette Limo</a>.</p>
 
   <h3>By Car</h3>
