@@ -115,8 +115,8 @@ nav_order: 1
 
   .hsp-speakers {
     display: grid;
-    gap: 1.25rem;
-    grid-template-columns: repeat(6, minmax(0, 1fr));
+    gap: 0.9rem;
+    grid-template-columns: 1fr;
     margin: 1.5rem 0 2rem;
   }
 
@@ -125,34 +125,30 @@ nav_order: 1
     background: color-mix(in srgb, var(--global-theme-color) 5%, transparent);
     border: 1px solid var(--global-divider-color);
     border-radius: 6px;
-    display: flex;
-    flex-direction: column;
-    grid-column: span 2;
-    min-height: 18rem;
-    padding: 1.35rem;
-    text-align: center;
-  }
-
-  .hsp-speaker:nth-last-child(2):nth-child(3n + 1) {
-    grid-column: 2 / span 2;
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: 8.5rem minmax(0, 1fr);
+    min-height: 0;
+    padding: 1.2rem 1.5rem;
+    text-align: left;
   }
 
   .hsp-speaker img {
     aspect-ratio: 1 / 1;
     border: 1px solid var(--global-divider-color);
     border-radius: 50%;
-    height: 152px;
+    height: 8.5rem;
     object-fit: cover;
-    width: 152px;
+    width: 8.5rem;
   }
 
   .hsp-speaker-name {
     color: var(--global-text-color);
     display: inline-block;
-    font-size: 1.05rem;
+    font-size: 1.12rem;
     font-weight: 700;
     line-height: 1.25;
-    margin: 0.9rem 0 0.35rem;
+    margin: 0 0 0.35rem;
   }
 
   .hsp-speaker-role,
@@ -174,6 +170,7 @@ nav_order: 1
   }
 
   .hsp-speaker-talk {
+    font-size: 0.98rem;
     font-style: italic;
     line-height: 1.4;
     margin-top: 0.65rem;
@@ -206,18 +203,6 @@ nav_order: 1
   }
 
   @media (max-width: 900px) {
-    .hsp-speakers {
-      grid-template-columns: repeat(2, minmax(0, 1fr));
-    }
-
-    .hsp-speaker {
-      grid-column: auto;
-    }
-
-    .hsp-speaker:nth-last-child(2):nth-child(3n + 1) {
-      grid-column: auto;
-    }
-
     .hsp-people {
       grid-template-columns: repeat(2, minmax(0, 1fr));
       max-width: 34rem;
@@ -317,7 +302,13 @@ nav_order: 1
     }
 
     .hsp-speaker {
+      grid-template-columns: 1fr;
       min-height: 0;
+      text-align: center;
+    }
+
+    .hsp-speaker img {
+      margin: 0 auto;
     }
 
     .hsp-people {
