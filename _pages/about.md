@@ -426,11 +426,11 @@ nav_order: 1
         <span class="hsp-date-value">March 1, 2027</span>
       </div>
       <div class="hsp-date-row">
-        <span>Early registration deadline</span>
+        <span>Early registration deadline for reduced fee</span>
         <span class="hsp-date-value">April 15, 2027</span>
       </div>
       <div class="hsp-date-row">
-        <span>Conference registration deadline</span>
+        <span>Regular registration deadline</span>
         <span class="hsp-date-value">May 22, 2027</span>
       </div>
       <div class="hsp-date-row">
