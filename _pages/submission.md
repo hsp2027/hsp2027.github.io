@@ -91,4 +91,4 @@ We welcome abstracts related to the special theme as well as submissions related
 
 ## Reviewer Recruitment
 
-[Sign up here](https://docs.google.com/forms/d/e/1FAIpQLSd7m42hCJ7IXNn49TUO32HfoOCHiLx25Yi1TWes2UYvxns5nA/viewform) to be a reviewer by December 15, 2026.
+Ph.D. holders may [sign up here](https://docs.google.com/forms/d/e/1FAIpQLSd7m42hCJ7IXNn49TUO32HfoOCHiLx25Yi1TWes2UYvxns5nA/viewform) to be a reviewer. The deadline for signup is December 15, 2026.
