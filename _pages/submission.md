@@ -67,7 +67,7 @@ We are delighted to announce the call for abstract submissions for the **40th An
 
 The special theme for HSP 2027 is **Cognitive mechanisms of syntactic change throughout the lifespan**. We invite submissions that examine how and why syntactic representations develop and change across the lifespan. Relevant topics may include age-related cognitive development in children and adults, changes in linguistic input characteristics (e.g. adapting to a new multilingual context), and changes resulting from experiment participation, written language exposure, classroom instruction, or clinical interventions.
 
-We welcome abstracts related to the special theme as well as submissions related to all areas of human sentence processing. Abstracts may be submitted for either poster or podium presentations.
+We welcome abstracts related to the special theme as well as submissions related to all areas of human sentence processing. Abstracts may be submitted for either poster or podium presentations. Presentations will be in person, but we plan to have a livestream available for remote participants to attend the talks.
 
 ## Abstract Submission
 
