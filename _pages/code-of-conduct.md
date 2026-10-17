@@ -87,7 +87,7 @@ We expect participants to follow these rules at all event venues (including onli
 
 ## Reporting
 
-If you feel unsafe or unwelcome, or witness behavior that violates the conference Code of Conduct, please report the incident to Elaine J. Francis (email), XXX (email), or XXX (email). We are committed to providing a welcoming, inclusive, and respectful environment for all participants.
+If you feel unsafe or unwelcome, or witness behavior that violates the conference Code of Conduct, please report the incident to Ronnie Wilbur (wilbur@purdue.edu) or Daniel Olson (danielolson@purdue.edu). We are committed to providing a welcoming, inclusive, and respectful environment for all participants.
 
 In case of an emergency, call 911 immediately. For other campus safety concerns, contact the Purdue University Police Department at (765) 494-8221.
 
