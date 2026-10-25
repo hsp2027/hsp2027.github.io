@@ -463,6 +463,7 @@ nav_order: 1
   <h2>Sponsors</h2>
   <div class="hsp-sponsor-list">
     <a href="https://www.cla.purdue.edu/" target="_blank" rel="noopener">Purdue University, College of Liberal Arts</a>
+    <a href="https://www.cla.purdue.edu/academic/sis/index.html" target="_blank" rel="noopener">Purdue University, Department of Linguistics</a>
     <a href="https://www.cla.purdue.edu/academic/sis/index.html" target="_blank" rel="noopener">Purdue University, School of Interdisciplinary Studies</a>
     <a href="https://www.cla.purdue.edu/academic/slc/index.html" target="_blank" rel="noopener">Purdue University, School of Languages and Cultures</a>
     <a href="https://umich.edu/" target="_blank" rel="noopener">University of Michigan</a>
